@@ -1,0 +1,11 @@
+{
+  "name": "com.sorajiro.cozywalk",
+  "version": "0.1.0",
+  "displayName": "Sorajiro Cozy Walk — M1",
+  "description": "Native HDRP exploration scaffold and guarded LookDev scene generator. Placeholder art; no quality/performance approval.",
+  "unity": "6000.6",
+  "dependencies": {
+    "com.unity.inputsystem": "1.20.0",
+    "com.unity.render-pipelines.high-definition": "17.6.0"
+  }
+}

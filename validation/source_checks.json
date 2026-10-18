@@ -1,0 +1,126 @@
+{
+  "scope": "source_only_not_UE_build_assets_runtime_render_or_performance",
+  "checked_at_utc": "2026-10-02T06:21:59.625988+00:00",
+  "source_sha256": {
+    "Tests/Pure/camera_policy_test.cpp": "2a31d5f60072f5abf07768d4bfd72f2cf9c96d465b015a08c2c6dfd1f249608f",
+    "Tests/test_lookdev_plan.py": "a9b9bb16da854f2c5ee2c19455fd1cf5c9f4251f6aa6fd09b7852434507831bd",
+    "Tests/test_recipe_contract.py": "674789531eb704eaa5b05334b7ccdbe32c9aab03316f697210e9338cca4d5044",
+    "Tools/Pipeline/recipe_contract.py": "a7f530704e03583c3423bceff683fbfdca0a7f3ea65e49371d9515b1c5982ebe",
+    "Tools/Unreal/generate_bootstrap.py": "bc5cfe3eb555866e8604caa24a169fdef1e8d6c5f8c7da5cff8d768099302f45",
+    "Tools/Unreal/recipes/bootstrap_v001.json": "dbc9c5ba3d615d505bb5b69117879d49bbb1c508a4abf1929ad36db032ad86a5",
+    "Tools/Unreal/recipes/lookdev_plan_v001.json": "8ad4466ca4dfed7aea1a24a12f681db08a30b278f0ab60faba4d49919d19b9c4",
+    "Unreal/Config/DefaultEngine.ini": "96d706f39cf8108b2128bcd3f637abb3303fc5c8c383105dea231c66065a03c0",
+    "Unreal/Config/DefaultGame.ini": "a9cdbc91b01a65eca5fb7354800cfc5d9bfec9cc964262be31874dca58f273ce",
+    "Unreal/Config/DefaultInput.ini": "800645a7990b5b5abe559b34d523b707772682dad55b18bf31193dd1825cedfd",
+    "Unreal/Sorajiro.uproject": "7afc2a3bf704de12b3357efb12ef26dfe4ffbf9e0967b277b1ed7f6323eb111c",
+    "Unreal/Source/Sorajiro/Private/Sorajiro.cpp": "f7c794566afbd7acb0bc501dc36f61b1222fd289148f183813c5ecddd9bf8981",
+    "Unreal/Source/Sorajiro/Private/SorajiroCharacter.cpp": "9249d0d5519dc81b445264a85d2d015d6664135bf195eebbe8e7107e7a9e1378",
+    "Unreal/Source/Sorajiro/Private/SorajiroGameMode.cpp": "5cc40fb6ed100c24eb2170e19fb21b7c3e23567706e54774e14503e627e53812",
+    "Unreal/Source/Sorajiro/Private/SorajiroHUD.cpp": "57c057a40fa2b9ec6419c57ab65aaaaea5cc3c3a962eefe0abd4018d3c1f681d",
+    "Unreal/Source/Sorajiro/Private/SorajiroPlayerController.cpp": "6e2bf127e29ab33e5fa9bf3ef1e9e109675992d07e8eca985aef42926334da66",
+    "Unreal/Source/Sorajiro/Public/Logic/CameraPolicy.h": "5ea2aec3fecd90352c4e947ba056c435642bfc3fa7b9f99c3cb169e2fe52180c",
+    "Unreal/Source/Sorajiro/Public/SorajiroCharacter.h": "a1974a65ef40e27c8025ca52cd4efc16a4d516f435c9c56807b43b88a46c1c75",
+    "Unreal/Source/Sorajiro/Public/SorajiroGameMode.h": "9e409070b8b21f1157196e7679e233684b5b87f2d7853d265b2b62f86ae48c38",
+    "Unreal/Source/Sorajiro/Public/SorajiroHUD.h": "3216627d49a8e0dd4ec33054508a9b300a07edf46295b4754f2cc19b6a20d15b",
+    "Unreal/Source/Sorajiro/Public/SorajiroPlayerController.h": "490251db7973aefe31d9070847737ace4dd301d03ef3a85f6b9b363923e2802b",
+    "Unreal/Source/Sorajiro/Sorajiro.Build.cs": "2bf963b427b54c0fa41663c52fb3947b506ae95b3fb63b2569ca3318a8bf3c3e",
+    "Unreal/Source/Sorajiro.Target.cs": "a52bb1256c331e80fd98637b45260c1dc24ddd523a3f240ac7efdda3f845a509",
+    "Unreal/Source/SorajiroEditor.Target.cs": "8e24b37b99feff4bf9459d07ae9c65a3052fd8950e1565e450390dd205b2f568",
+    "scripts/check_source.py": "2751b2b0a65b7ca61fe045fec79e9dee6f8b3d1e9271a64f4be612e434d3daac",
+    "scripts/mac_ue.py": "0d1dd1ed9659b77e1abaa86b4493bddc4da0d34a7570633da4d30a6df8fc2d77",
+    "scripts/probe_environment.py": "c01d8232b1904c33395235811b3ebfcc25648fddc6e2de1cefeb434ca9f76cdc",
+    "scripts/validate_handoff.py": "d6c1fd9bfd24ac5efb559d365850f162d20214dc867f0c2abd822e316d0192e6"
+  },
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "handoff",
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "scripts/validate_handoff.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Artifacts/SourceChecks/handoff.log",
+      "output": "{\n  \"scope\": \"handoff_documentation_and_reference_integrity_only\",\n  \"checked_at_utc\": \"2026-10-02T06:21:58.624031+00:00\",\n  \"python_version\": \"3.14.7\",\n  \"status\": \"PASS\",\n  \"checks\": [\n    {\n      \"name\": \"required_document_files\",\n      \"status\": \"PASS\",\n      \"details\": \"20 required files exist\"\n    },\n    {\n      \"name\": \"json_syntax\",\n      \"status\": \"PASS\",\n      \"details\": \"All configuration/example JSON files parsed\"\n    },\n    {\n      \"name\": \"markdown_local_links_and_fences\",\n      \"status\": \"PASS\",\n      \"details\": \"Relative Markdown targets exist; code fences balanced\"\n    },\n    {\n      \"name\": \"root_agents_size\",\n      \"status\": \"PASS\",\n      \"details\": \"5755 bytes; global or nested instructions may add to Codex limits\"\n    },\n    {\n      \"name\": \"reference_integrity:reference/bear_plush.png\",\n      \"status\": \"PASS\",\n      \"details\": \"2133398 bytes; SHA-256 33d820afc6468bbc56c241e4ae339901e55bab5a660ee18d7f9bd343976413db\"\n    },\n    {\n      \"name\": \"reference_image_header:reference/bear_plush.png\",\n      \"status\": \"PASS\",\n      \"details\": \"PNG/JPEG header check only; not a rendering evaluation\"\n    },\n    {\n      \"name\": \"reference_integrity:reference/target_room.png\",\n      \"status\": \"PASS\",\n      \"details\": \"3084712 bytes; SHA-256 4bafb182333844230c85777addbb893f636a73d2580d02f5d63a69772e6a3783\"\n    },\n    {\n      \"name\": \"reference_image_header:reference/target_room.png\",\n      \"status\": \"PASS\",\n      \"details\": \"PNG/JPEG header check only; not a rendering evaluation\"\n    },\n    {\n      \"name\": \"reference_integrity:reference/legacy_gameplay.jpg\",\n      \"status\": \"PASS\",\n      \"details\": \"251726 bytes; SHA-256 9349646589216c5d8756f21d1a218eb7e10bf0dae0ec58adbc160af0417e7e73\"\n    },\n    {\n      \"name\": \"reference_image_header:reference/legacy_gameplay.jpg\",\n      \"status\": \"PASS\",\n      \"details\": \"PNG/JPEG header check only; not a rendering evaluation\"\n    },\n    {\n      \"name\": \"reference_integrity:reference/legacy_plush.jpg\",\n      \"status\": \"PASS\",\n      \"details\": \"200414 bytes; SHA-256 1fbbe442ba43efd4c1f25c9f397850e4d88b0bf1162267fa0c10b2c5c22e4720\"\n    },\n    {\n      \"name\": \"reference_image_header:reference/legacy_plush.jpg\",\n      \"status\": \"PASS\",\n      \"details\": \"PNG/JPEG header check only; not a rendering evaluation\"\n    },\n    {\n      \"name\": \"engine_lock_consistency\",\n      \"status\": \"PASS\",\n      \"details\": \"A locked engine must have an observed version; pending is allowed\"\n    }\n  ],\n  \"not_run\": [\n    \"Codex Cloud task\",\n    \"Unreal C++ build\",\n    \"UE asset generation/import\",\n    \"Metal or other UE shader/render test\",\n    \"gameplay\",\n    \"Mac FPS/memory benchmark\",\n    \"Windows compatibility\",\n    \"packaging\"\n  ]\n}\n"
+    },
+    {
+      "name": "cloud_setup",
+      "argv": [
+        "bash",
+        "scripts/cloud_setup.sh"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Artifacts/SourceChecks/cloud_setup.log",
+      "output": "Environment preflight (no UE/GPU assumptions):\nDarwin\nPython 3.14.7\ngit version 2.56.0\n{\n  \"scope\": \"handoff_documentation_and_reference_integrity_only\",\n  \"checked_at_utc\": \"2026-10-02T06:21:58.804595+00:00\",\n  \"python_version\": \"3.14.7\",\n  \"status\": \"PASS\",\n  \"checks\": [\n    {\n      \"name\": \"required_document_files\",\n      \"status\": \"PASS\",\n      \"details\": \"20 required files exist\"\n    },\n    {\n      \"name\": \"json_syntax\",\n      \"status\": \"PASS\",\n      \"details\": \"All configuration/example JSON files parsed\"\n    },\n    {\n      \"name\": \"markdown_local_links_and_fences\",\n      \"status\": \"PASS\",\n      \"details\": \"Relative Markdown targets exist; code fences balanced\"\n    },\n    {\n      \"name\": \"root_agents_size\",\n      \"status\": \"PASS\",\n      \"details\": \"5755 bytes; global or nested instructions may add to Codex limits\"\n    },\n    {\n      \"name\": \"reference_integrity:reference/bear_plush.png\",\n      \"status\": \"PASS\",\n      \"details\": \"2133398 bytes; SHA-256 33d820afc6468bbc56c241e4ae339901e55bab5a660ee18d7f9bd343976413db\"\n    },\n    {\n      \"name\": \"reference_image_header:reference/bear_plush.png\",\n      \"status\": \"PASS\",\n      \"details\": \"PNG/JPEG header check only; not a rendering evaluation\"\n    },\n    {\n      \"name\": \"reference_integrity:reference/target_room.png\",\n      \"status\": \"PASS\",\n      \"details\": \"3084712 bytes; SHA-256 4bafb182333844230c85777addbb893f636a73d2580d02f5d63a69772e6a3783\"\n    },\n    {\n      \"name\": \"reference_image_header:reference/target_room.png\",\n      \"status\": \"PASS\",\n      \"details\": \"PNG/JPEG header check only; not a rendering evaluation\"\n    },\n    {\n      \"name\": \"reference_integrity:reference/legacy_gameplay.jpg\",\n      \"status\": \"PASS\",\n      \"details\": \"251726 bytes; SHA-256 9349646589216c5d8756f21d1a218eb7e10bf0dae0ec58adbc160af0417e7e73\"\n    },\n    {\n      \"name\": \"reference_image_header:reference/legacy_gameplay.jpg\",\n      \"status\": \"PASS\",\n      \"details\": \"PNG/JPEG header check only; not a rendering evaluation\"\n    },\n    {\n      \"name\": \"reference_integrity:reference/legacy_plush.jpg\",\n      \"status\": \"PASS\",\n      \"details\": \"200414 bytes; SHA-256 1fbbe442ba43efd4c1f25c9f397850e4d88b0bf1162267fa0c10b2c5c22e4720\"\n    },\n    {\n      \"name\": \"reference_image_header:reference/legacy_plush.jpg\",\n      \"status\": \"PASS\",\n      \"details\": \"PNG/JPEG header check only; not a rendering evaluation\"\n    },\n    {\n      \"name\": \"engine_lock_consistency\",\n      \"status\": \"PASS\",\n      \"details\": \"A locked engine must have an observed version; pending is allowed\"\n    }\n  ],\n  \"not_run\": [\n    \"Codex Cloud task\",\n    \"Unreal C++ build\",\n    \"UE asset generation/import\",\n    \"Metal or other UE shader/render test\",\n    \"gameplay\",\n    \"Mac FPS/memory benchmark\",\n    \"Windows compatibility\",\n    \"packaging\"\n  ]\n}\nUE BUILD / ASSET IMPORT / RENDER / PERFORMANCE: NOT RUN. This is documentation validation only.\n"
+    },
+    {
+      "name": "python_syntax_only",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "name": "uproject_json_only",
+      "status": "PASS"
+    },
+    {
+      "name": "recipe_contract",
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Artifacts/SourceChecks/recipe_contract.log",
+      "output": "test_four_distinct_usable_cameras_and_explicit_unverified_assets (test_lookdev_plan.LookDevPlanTests.test_four_distinct_usable_cameras_and_explicit_unverified_assets) ... ok\ntest_config_map_and_material_links_match_recipe (test_recipe_contract.RecipeContractTests.test_config_map_and_material_links_match_recipe) ... ok\ntest_deleted_package_not_reused (test_recipe_contract.RecipeContractTests.test_deleted_package_not_reused) ... ok\ntest_duplicate_actors_and_missing_material_rejected (test_recipe_contract.RecipeContractTests.test_duplicate_actors_and_missing_material_rejected) ... ok\ntest_empty_revision_can_create (test_recipe_contract.RecipeContractTests.test_empty_revision_can_create) ... ok\ntest_engine_change_requires_new_revision (test_recipe_contract.RecipeContractTests.test_engine_change_requires_new_revision) ... ok\ntest_extra_owner_file_refuses_overwrite (test_recipe_contract.RecipeContractTests.test_extra_owner_file_refuses_overwrite) ... ok\ntest_incomplete_receipt_not_success (test_recipe_contract.RecipeContractTests.test_incomplete_receipt_not_success) ... ok\ntest_lfs_pointer_refused (test_recipe_contract.RecipeContractTests.test_lfs_pointer_refused) ... ok\ntest_modified_generated_asset_refuses_overwrite (test_recipe_contract.RecipeContractTests.test_modified_generated_asset_refuses_overwrite) ... ok\ntest_nonfinite_and_invalid_geometry_rejected (test_recipe_contract.RecipeContractTests.test_nonfinite_and_invalid_geometry_rejected) ... ok\ntest_output_path_traversal_or_owner_path_rejected (test_recipe_contract.RecipeContractTests.test_output_path_traversal_or_owner_path_rejected) ... ok\ntest_owner_asset_without_receipt_is_preserved (test_recipe_contract.RecipeContractTests.test_owner_asset_without_receipt_is_preserved) ... ok\ntest_recipe_change_requires_new_revision (test_recipe_contract.RecipeContractTests.test_recipe_change_requires_new_revision) ... ok\ntest_symlinks_refused (test_recipe_contract.RecipeContractTests.test_symlinks_refused) ... ok\ntest_unchanged_rerun_is_read_only (test_recipe_contract.RecipeContractTests.test_unchanged_rerun_is_read_only) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.014s\n\nOK\n"
+    },
+    {
+      "name": "pure_cpp_compile",
+      "argv": [
+        "/usr/bin/clang++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
+        "-IUnreal/Source/Sorajiro/Public",
+        "Tests/Pure/camera_policy_test.cpp",
+        "-o",
+        "Artifacts/SourceChecks/camera_policy_test"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Artifacts/SourceChecks/pure_cpp_compile.log",
+      "output": ""
+    },
+    {
+      "name": "pure_cpp_runtime",
+      "argv": [
+        "./Artifacts/SourceChecks/camera_policy_test"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "Artifacts/SourceChecks/pure_cpp_runtime.log",
+      "output": "PASS: runtime CameraPolicy constraints (14 checks); not a UE movement/render test\n"
+    }
+  ],
+  "not_run": [
+    "UE UBT/UHT build",
+    "Editor Python execution/asset generation",
+    "Blender asset generation",
+    "Metal/shaders",
+    "gameplay",
+    "visual/motion verification",
+    "performance",
+    "Mac package",
+    "Windows"
+  ]
+}

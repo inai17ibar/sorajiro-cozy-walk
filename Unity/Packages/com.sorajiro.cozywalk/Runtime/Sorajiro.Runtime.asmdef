@@ -1,0 +1,6 @@
+{
+  "name": "Sorajiro.Runtime",
+  "rootNamespace": "Sorajiro",
+  "references": ["Unity.InputSystem"],
+  "autoReferenced": true
+}

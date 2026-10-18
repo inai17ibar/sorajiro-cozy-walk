@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "state": "PLANNED_NOT_GENERATED",
+  "map_path": "/Game/Sorajiro/LookDev/L_LookDev",
+  "units": "cm",
+  "axes": "Z-up, +X forward",
+  "hero": {
+    "state": "NOT_CREATED",
+    "height_cm_trial": 40,
+    "floor_origin": [0, 0, 0],
+    "forward": "+X",
+    "required": ["full_body_skeletal_mesh", "root_body_head_arms_legs_rig", "editable_UV_materials", "cloud_applique", "glossy_safety_eyes_nose"],
+    "pile_length_mm_trial": [1, 4],
+    "fur_variants": ["Groom_Strands_patch_then_binding", "Cards_or_Mesh_comparison"],
+    "blender_export": {"scene_units": "metric", "unit_scale": 1.0, "model_height_m": 0.4, "FBX_forward": "-Y", "FBX_up": "Z", "apply_unit_scale": true, "add_leaf_bones": false, "UE_import_uniform_scale_trial": 1.0, "axis_and_40cm_scale_verified": false, "notes": "Blender authored -Y forward/Z-up, exported -Y/Z. Verify root orientation and cm bounding box in selected import pipeline; do not compensate twice. Groom attributes/exporter still to be selected."}
+  },
+  "elements": [
+    {"role": "bear", "priority": 0, "state": "NOT_CREATED"},
+    {"role": "window_and_warm_key", "location_trial_cm": [220, 180, 130], "state": "NOT_CREATED"},
+    {"role": "wood_floor_beveled_planks", "top_z_cm": 0, "state": "NOT_CREATED"},
+    {"role": "rug_thickness_contact", "top_z_cm_trial": 0.8, "state": "NOT_CREATED"}
+  ],
+  "capture": {
+    "output_pixels": [1920, 1080], "screen_percentage_trial": 100,
+    "AA_trial": "TSR", "dynamic_resolution": false,
+    "exposure": "manual_fixed", "EV100_trial": 7.0, "DOF": false, "motion_blur": false,
+    "pose": "neutral_standing_feet_on_rug", "real_UE_capture_only": true,
+    "internal_resolution_verified": false, "lighting_verified": false
+  },
+  "cameras": [
+    {"id": "S01_Portrait", "location_cm": [105, 0, 36], "look_at_cm": [0, 0, 28], "horizontal_fov_deg": 50},
+    {"id": "S02_Gameplay", "location_cm": [-145, 0, 55], "look_at_cm": [30, 0, 24], "horizontal_fov_deg": 60},
+    {"id": "S03_ThreeQuarter", "location_cm": [85, -85, 55], "look_at_cm": [0, 0, 24], "horizontal_fov_deg": 55},
+    {"id": "S04_Contact", "location_cm": [45, -35, 12], "look_at_cm": [0, 0, 5], "horizontal_fov_deg": 50}
+  ],
+  "acceptance": "Trial transforms only. Next task creates actual cameras/materials/hero and logs final exposure/transforms. No M2 visual pass from this recipe.",
+  "provenance": {"reference_manifest": "reference/manifest.json", "public_redistribution_approved": false}
+}

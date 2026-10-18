@@ -1,0 +1,83 @@
+{
+  "scope": "handoff_documentation_and_reference_integrity_only",
+  "checked_at_utc": "2026-10-12T08:14:49.889031+00:00",
+  "python_version": "3.14.7",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "required_document_files",
+      "status": "PASS",
+      "details": "20 required files exist"
+    },
+    {
+      "name": "json_syntax",
+      "status": "PASS",
+      "details": "All configuration/example JSON files parsed"
+    },
+    {
+      "name": "markdown_local_links_and_fences",
+      "status": "PASS",
+      "details": "Relative Markdown targets exist; code fences balanced"
+    },
+    {
+      "name": "root_agents_size",
+      "status": "PASS",
+      "details": "6824 bytes; global or nested instructions may add to Codex limits"
+    },
+    {
+      "name": "reference_integrity:reference/bear_plush.png",
+      "status": "PASS",
+      "details": "2133398 bytes; SHA-256 33d820afc6468bbc56c241e4ae339901e55bab5a660ee18d7f9bd343976413db"
+    },
+    {
+      "name": "reference_image_header:reference/bear_plush.png",
+      "status": "PASS",
+      "details": "PNG/JPEG header check only; not a rendering evaluation"
+    },
+    {
+      "name": "reference_integrity:reference/target_room.png",
+      "status": "PASS",
+      "details": "3084712 bytes; SHA-256 4bafb182333844230c85777addbb893f636a73d2580d02f5d63a69772e6a3783"
+    },
+    {
+      "name": "reference_image_header:reference/target_room.png",
+      "status": "PASS",
+      "details": "PNG/JPEG header check only; not a rendering evaluation"
+    },
+    {
+      "name": "reference_integrity:reference/legacy_gameplay.jpg",
+      "status": "PASS",
+      "details": "251726 bytes; SHA-256 9349646589216c5d8756f21d1a218eb7e10bf0dae0ec58adbc160af0417e7e73"
+    },
+    {
+      "name": "reference_image_header:reference/legacy_gameplay.jpg",
+      "status": "PASS",
+      "details": "PNG/JPEG header check only; not a rendering evaluation"
+    },
+    {
+      "name": "reference_integrity:reference/legacy_plush.jpg",
+      "status": "PASS",
+      "details": "200414 bytes; SHA-256 1fbbe442ba43efd4c1f25c9f397850e4d88b0bf1162267fa0c10b2c5c22e4720"
+    },
+    {
+      "name": "reference_image_header:reference/legacy_plush.jpg",
+      "status": "PASS",
+      "details": "PNG/JPEG header check only; not a rendering evaluation"
+    },
+    {
+      "name": "engine_lock_consistency",
+      "status": "PASS",
+      "details": "A locked engine must have an observed version; pending is allowed"
+    }
+  ],
+  "not_run": [
+    "Codex Cloud task",
+    "Unreal C++ build",
+    "UE asset generation/import",
+    "Metal or other UE shader/render test",
+    "gameplay",
+    "Mac FPS/memory benchmark",
+    "Windows compatibility",
+    "packaging"
+  ]
+}

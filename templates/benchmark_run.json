@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "status": "NOT_RUN",
+  "commit": null,
+  "datetime": null,
+  "machine": {
+    "model": null,
+    "gpu": null,
+    "gpu_cores": null,
+    "memory_gb": null,
+    "os": null,
+    "power_mode": null,
+    "ac_power": null
+  },
+  "build": {
+    "engine_version": null,
+    "configuration": null,
+    "editor_or_packaged": null
+  },
+  "render": {
+    "profile": null,
+    "output_width": 1920,
+    "output_height": 1080,
+    "internal_width": null,
+    "internal_height": null,
+    "screen_percentage": null,
+    "upscaler": null,
+    "dynamic_resolution": false,
+    "vsync": false,
+    "fps_cap": null,
+    "groom_path": null
+  },
+  "method": {
+    "warmup_seconds": 30,
+    "sample_seconds": 120,
+    "repetition_index": null,
+    "repetitions_required": 3,
+    "fixed_route_id": null,
+    "screen_recording": false
+  },
+  "results": {
+    "frame_ms_p50": null,
+    "frame_ms_p95": null,
+    "gpu_ms_p50": null,
+    "max_frame_ms": null,
+    "memory_pressure": null,
+    "swap_delta_mb": null,
+    "thermal_notes": null,
+    "unavailable_metrics_reasons": {}
+  },
+  "evidence": {
+    "raw_trace": null,
+    "log": null
+  },
+  "goal_p95_frame_ms": 33.3,
+  "goal_met": null
+}

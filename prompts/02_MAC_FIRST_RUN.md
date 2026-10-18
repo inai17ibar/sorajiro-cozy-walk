@@ -1,0 +1,16 @@
+このMac上で、クラウドCodexが準備したそらじろうUEプロジェクトを初回ビルド・描画確認してください。
+
+AGENTS.md、REQUIREMENTS_JA.md、docs/VERIFICATION.mdを読み、現在のGit差分を確認してください。未コミットの変更を消したり、ブランチを強制的に切り替えたりしないでください。
+
+このMacはM3 Max／36GBです。まず読み取りだけでmacOS、Xcode、Engine、Blenderの導入とバージョン、アーキテクチャを確認し、project.environment.jsonを更新してください。ログからシリアル番号や認証情報を除いてください。
+UE/Xcodeの互換性をその版の公式資料で確認してください。Engineアップグレード、Xcode選択先の変更、sudo、破壊的処理、巨大なダウンロードは実行前に確認してください。
+
+Unreal/Sorajiro.uprojectがなければ、クラウドからのソースと実機の正式なUE C++テンプレートを照合し、最小のプロジェクトを用意してください。既存プロジェクトがある場合は保全します。
+
+対応するUEのUBT/UHTでEditor targetをビルドし、最初の根本エラーから直してください。続いて実際のEditorで生成・インポート手順を実行し、マップをロードして移動とカメラを確認してください。Pythonの構文が通っただけでアセットが完成したとは扱わないでください。
+
+最初の仮モデルでも、MacのMetal経路で実際に描いた画像を保存し、まだ仮モデルであることを明示してください。NullRHIの結果は画質検証に使わないでください。
+次にL_LookDevで使うGroom/SM6、Cards、Lumenの基準構成を小さく試し、templates/feature_matrix.jsonの形式で「公式対応」と「実機確認」を分けて記録してください。
+
+最後にtemplates/LOCAL_REPORT.mdに沿って、ビルド結果、アセット結果、実行・描画結果、未確認、画像とログの場所、クラウドへ返す最小の修正課題を日本語でまとめてください。性能を測っていなければFPSの数値を書かないでください。
+初回のM0・M1ソースが追加されています。まず`docs/MAC_FIRST_BUILD.md`と`docs/M0_M1_REPORT.md`を読み、そこに記載したUE_ROOT指定・build-editor・Editor preflight/apply・Standalone・packageの順序を使用してください。実機観測は`project.environment.json`にあり、Engine lockとUE依存確認は保留です。

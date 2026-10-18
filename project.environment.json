@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "project": "Sorajiro",
+  "document_date": "2026-10-18",
+  "status": "Unity_twilight_v010_tactile_props_materials_Metal_stills_and_scripted_Play_verified_quality_Player_performance_pending",
+  "primary_target": {
+    "platform": "macOS Apple Silicon",
+    "machine": "MacBook Pro M3 Max",
+    "memory_gb_reported": 36,
+    "memory_type": "unified",
+    "source": "owner_report",
+    "gpu_cores_verified": 30,
+    "os_version_verified": "27.0.1",
+    "memory_gb_verified": 36
+  },
+  "secondary_target": {
+    "platform": "Windows 11",
+    "gpu_reported": "RTX 3070",
+    "gpu_variant_verified": null,
+    "system_memory_gb_verified": null
+  },
+  "engine": {
+    "candidate_minor": "5.8",
+    "verified_version": null,
+    "build_id": null,
+    "distribution": null,
+    "version_locked": false
+  },
+  "toolchain": {
+    "xcode_verified": "Xcode 27.0\nBuild version 27A266a",
+    "blender_verified": "Blender 5.2.0 LTS",
+    "plugins_verified": [],
+    "unity_cli_verified": "1.0.0-beta.12",
+    "unity_pipeline_verified": "0.8.0-exp.1"
+  },
+  "cloud": {
+    "os_observed": "Darwin",
+    "ue_available_verified": false,
+    "gpu_available_verified": true,
+    "role": "source_and_pipeline_scripts_not_Mac_render_validation",
+    "session_type_observed": "local_mac"
+  },
+  "targets": {
+    "output_width": 1920,
+    "output_height": 1080,
+    "initial_fps_goal": 30,
+    "initial_p95_frame_ms_goal": 33.3,
+    "performance_verified": false
+  },
+  "execution_environment": {
+    "observed_at_utc": "2026-10-02T06:21:57.278789+00:00",
+    "session_type": "local_mac",
+    "os": "Darwin",
+    "architecture": "arm64",
+    "python": "3.14.7",
+    "git": {
+      "exit_code": 0,
+      "stdout": "git version 2.56.0",
+      "stderr": ""
+    },
+    "compiler": {
+      "exit_code": 0,
+      "stdout": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+      "stderr": ""
+    },
+    "git_lfs": {
+      "exit_code": 128,
+      "stdout": "",
+      "stderr": "fatal: cannot exec 'git-lfs': Bad CPU type in executable"
+    },
+    "python_modules": {
+      "unreal": false,
+      "bpy": false
+    },
+    "disk_free_bytes": 14950400000,
+    "ue": {
+      "available": false,
+      "version": null,
+      "build_id": null,
+      "search_scope": "UE_ROOT, PATH, /Users/Shared/Epic Games/UE_*, /Applications/UE_*",
+      "compatibility_verified": false
+    },
+    "gpu": {
+      "available_reported_by_os": true,
+      "model": "Apple M3 Max",
+      "cores": "30",
+      "metal_os_report": "spdisplays_supported",
+      "render_test_run": false
+    },
+    "macos": "27.0.1",
+    "macos_build": "26A434",
+    "xcode": {
+      "exit_code": 0,
+      "stdout": "Xcode 27.0\nBuild version 27A266a",
+      "stderr": ""
+    },
+    "machine": {
+      "machine_name": "MacBook Pro",
+      "machine_model": "Mac15,10",
+      "chip_type": "Apple M3 Max",
+      "physical_memory": "36 GB"
+    },
+    "blender": {
+      "exit_code": 0,
+      "version_line": "Blender 5.2.0 LTS",
+      "warning_present": true
+    }
+  },
+  "active_engine": "Unity HDRP",
+  "unity": {
+    "verified_version": "6000.6.5f1",
+    "revision": "3ff58d469c8a",
+    "editor_display_version": "6.6",
+    "hdrp_verified": "17.6.0",
+    "input_system_verified": "1.20.0",
+    "observed_date": "2026-10-12",
+    "version_locked": true,
+    "project_location_local": "$HOME/Documents/Unity/sorajiro-unity",
+    "source_package": "Unity/Packages/com.sorajiro.cozywalk",
+    "editor_compile_verified": true,
+    "placeholder_generation_verified": true,
+    "placeholder_render_observed": true,
+    "graphics_api_observed": "Metal",
+    "gpu_observed": "Apple M3 Max",
+    "player_build_verified": false,
+    "reference_quality_verified": false,
+    "performance_verified": false,
+    "m1_operation_owner_reported": true,
+    "m2_scene_local": "Assets/Sorajiro/Generated/M2_v003/L_LookDev.unity",
+    "m2_model_import_verified": true,
+    "m2_fixed_1080p_render_observed": true,
+    "m2_asset_state": "generated_imported_model_uv_generic_rig_back_head_pile_patch_no_animation_quality_pending",
+    "m2_full_body_fur_verified": false,
+    "m2_volume_saved_and_effective_checked": true,
+    "m1_volume_persistence_issue_observed": true,
+    "twilight_scene_local": "Assets/Sorajiro/Generated/Twilight_v010/L_LookDev.unity",
+    "twilight_observed_date": "2026-10-18",
+    "twilight_asset_state": "generated_imported_Metal_render_observed_tactile_room_props_materials_existing_bear_rig_and_clips_trial_unapproved",
+    "twilight_model_import_verified": true,
+    "twilight_full_body_skin_deformation_verified": true,
+    "twilight_editable_clips_sampled_verified": true,
+    "twilight_animator_transitions_verified": true,
+    "twilight_fixed_1080p_render_observed": true,
+    "twilight_runtime_bedding_physics_implemented": false,
+    "twilight_cloth_source_bake_executed": true,
+    "twilight_lod_verified": false,
+    "twilight_report": "docs/UNITY_ASSET_QUALITY_REPORT.md",
+    "twilight_evidence": "validation/unity_twilight_v010_checks.json",
+    "previous_twilight_scene_local": "Assets/Sorajiro/Generated/Twilight_v008/L_LookDev.unity",
+    "previous_v006_animator_transitions_verified": true,
+    "previous_v006_scripted_Play_motion_captured_seconds": 30.04517,
+    "twilight_scripted_Play_motion_captured_seconds": 30.08336,
+    "twilight_sole_clip_straight_constant_speed_verified": true,
+    "twilight_live_motion_status": "30s_scripted_Play_recorded_explicit_simulated_focus_fixture_no_keyboard_or_performance_claim",
+    "twilight_ssgi_asset_support_observed": false,
+    "twilight_owner_visual_approval": false
+  }
+}

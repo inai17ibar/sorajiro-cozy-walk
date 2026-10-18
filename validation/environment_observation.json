@@ -1,0 +1,59 @@
+{
+  "observed_at_utc": "2026-10-02T06:21:57.278789+00:00",
+  "session_type": "local_mac",
+  "os": "Darwin",
+  "architecture": "arm64",
+  "python": "3.14.7",
+  "git": {
+    "exit_code": 0,
+    "stdout": "git version 2.56.0",
+    "stderr": ""
+  },
+  "compiler": {
+    "exit_code": 0,
+    "stdout": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+    "stderr": ""
+  },
+  "git_lfs": {
+    "exit_code": 128,
+    "stdout": "",
+    "stderr": "fatal: cannot exec 'git-lfs': Bad CPU type in executable"
+  },
+  "python_modules": {
+    "unreal": false,
+    "bpy": false
+  },
+  "disk_free_bytes": 14950400000,
+  "ue": {
+    "available": false,
+    "version": null,
+    "build_id": null,
+    "search_scope": "UE_ROOT, PATH, /Users/Shared/Epic Games/UE_*, /Applications/UE_*",
+    "compatibility_verified": false
+  },
+  "gpu": {
+    "available_reported_by_os": true,
+    "model": "Apple M3 Max",
+    "cores": "30",
+    "metal_os_report": "spdisplays_supported",
+    "render_test_run": false
+  },
+  "macos": "27.0.1",
+  "macos_build": "26A434",
+  "xcode": {
+    "exit_code": 0,
+    "stdout": "Xcode 27.0\nBuild version 27A266a",
+    "stderr": ""
+  },
+  "machine": {
+    "machine_name": "MacBook Pro",
+    "machine_model": "Mac15,10",
+    "chip_type": "Apple M3 Max",
+    "physical_memory": "36 GB"
+  },
+  "blender": {
+    "exit_code": 0,
+    "version_line": "Blender 5.2.0 LTS",
+    "warning_present": true
+  }
+}

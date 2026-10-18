@@ -1,0 +1,68 @@
+{
+  "observed_at_utc": "2026-10-12T08:14:19.980909+00:00",
+  "engine": "Unity 6000.6.5f1 / HDRP 17.6.0",
+  "scope": "Actual local Editor compilation, generation/load, synchronous CharacterController smoke, placeholder Metal frame",
+  "source_sha256": {
+    "Unity/Packages/com.sorajiro.cozywalk/Editor/GeneratedContentGuard.cs": "e1c4b5ea4d5d12c3e091f9992bfea77b7c0a094a9b988b9f42bf0aa1dc09c503",
+    "Unity/Packages/com.sorajiro.cozywalk/Editor/LookDevBuilder.cs": "96e43052b5e7f84c2c391bc0b83bad38e0a8899d889625280cdd60aba35c1fd7",
+    "Unity/Packages/com.sorajiro.cozywalk/Editor/MotorSmokeTests.cs": "b9e952feb25ad394e193bfee121388c0565accb6a6e74c85ac442f31a6166f9f",
+    "Unity/Packages/com.sorajiro.cozywalk/Editor/VerificationTools.cs": "393bd5537b351f0401e2049f4a8af7afd771a9714b4d3e0cc216bf2cca4aaa79",
+    "Unity/Packages/com.sorajiro.cozywalk/Runtime/MotionPolicy.cs": "7cbec2b08e0258c2f2eb188976bee1781502292db0df0bccb3df184300778537",
+    "Unity/Packages/com.sorajiro.cozywalk/Runtime/OrbitCamera.cs": "e9ac53ef789fe2681d85ebdc06d79f5c6bc6b386a3b34e14a9502923325fe846",
+    "Unity/Packages/com.sorajiro.cozywalk/Runtime/SorajiroMotor.cs": "b7ba983adae04039a196eba31b2f55b0e2069d0e1f29975b12d9ed445b75f35d"
+  },
+  "editor_assemblies": [
+    {
+      "name": "Sorajiro.Runtime.dll",
+      "sha256": "452ef30e9df9bf9570464c9c4256588878267041d4fac0cce629fb08a2bf4b42",
+      "newer_than_all_source_files": true
+    },
+    {
+      "name": "Sorajiro.Editor.dll",
+      "sha256": "599e58284cc043dc222cd439f2f8a83db90156df5859b9f431cd1489ca3b0466",
+      "newer_than_all_source_files": true
+    }
+  ],
+  "checks": {
+    "editor_import_compile": "PASS",
+    "real_scene_generation_and_open": "PASS",
+    "generated_receipt_hashes": "PASS (16 files)",
+    "unchanged_generator_rerun": "REUSE; no changes (actual Unity menu)",
+    "unity_guard_tests": "PASS (6)",
+    "motor_physics_smoke": "PASS",
+    "placeholder_metal_render": "OBSERVED / not reference-quality approved",
+    "japanese_hud": "OBSERVED in saved frame",
+    "escape_input": "OBSERVED paused=true",
+    "movement_keyboard_input": "not confirmed by brief UI key taps; manual hold test pending",
+    "camera_device_and_wall_test": "not_run",
+    "player_build_and_launch": "not_run",
+    "four_fixed_comparison_shots": "not_run",
+    "30s_motion_clip": "not_run",
+    "reference_quality": "not_run / placeholder",
+    "performance_benchmark": "not_run",
+    "Windows": "not_run"
+  },
+  "frame": {
+    "path": "Artifacts/UnityEditor/baseline-placeholder-editor-639273895009991880.png",
+    "sha256": "1b4c4400711d23821fc407d7970d8a6122aa9cf2eb5f11dd17f6a7e34bfa8171",
+    "png_width": 1206,
+    "png_height": 1197,
+    "screen_reported_width": 1210,
+    "screen_reported_height": 1291,
+    "resolution_note": "Variable Editor Game view: Screen-reported dimensions differ from next-frame PNG. Not fixed 1080p; no performance claim.",
+    "runtime_evidence": "Artifacts/UnityEditor/runtime-639273895009972970.json",
+    "gpu": "Apple M3 Max",
+    "api": "Metal",
+    "internal_resolution": null,
+    "upscaler": null,
+    "asset_state": "generated_placeholder_no_fur_no_rig_no_animation",
+    "owner_approved": false
+  },
+  "evidence": [
+    "Artifacts/UnityEditor/editor-evidence.log",
+    "Artifacts/UnityEditor/guard-tests.txt",
+    "Artifacts/UnityEditor/motor-smoke.txt",
+    "validation/unity_source_checks.json"
+  ],
+  "handoff": "Generated LookDev open; Play stopped (observed UI). Build, assets beyond placeholders, visual approval and performance remain pending."
+}

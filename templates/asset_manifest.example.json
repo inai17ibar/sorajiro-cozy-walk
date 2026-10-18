@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "bear_body_v001",
+      "role": "hero_full_body_skeletal_mesh",
+      "state": "NOT_CREATED",
+      "source_file": null,
+      "sha256": null,
+      "generator": null,
+      "generator_version": null,
+      "seed": null,
+      "exporter": null,
+      "exporter_version": null,
+      "export_settings": {},
+      "ue_package_path": "/Game/Generated/Bear/SK_Bear",
+      "import_scale_verified": false,
+      "axes_verified": false,
+      "material_slots": [],
+      "binding_mesh_id": null,
+      "editor_import_verified": false,
+      "render_verified": false,
+      "provenance": {
+        "origin": null,
+        "rights_review": "REQUIRED",
+        "public_redistribution_approved": false
+      }
+    }
+  ]
+}

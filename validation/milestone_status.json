@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "scope": "M0_M1_source_delivery_only",
+  "M0": {"T00": "SOURCE_DONE", "T01": "SOURCE_DONE_ENGINE_LOCK_PENDING", "T02": "NOT_RUN", "acceptance_gate": "NOT_RUN"},
+  "M1": {"T10": "SOURCE_DONE_NOT_UE_BUILT", "T11": "RECIPE_DONE_NOT_EDITOR_EXECUTED", "T12": "NOT_RUN", "acceptance_gate": "NOT_RUN"},
+  "M2": {"next_task": "LOOKDEV_INPUT_PLAN_ONLY", "acceptance_gate": "NOT_RUN"},
+  "verification": {"SOURCE": "see validation/source_checks.json for limited independent checks", "BUILD": "NOT_RUN", "ASSETS": "NOT_RUN", "RUNTIME": "NOT_RUN", "VISUAL": "NOT_RUN", "PERFORMANCE": "NOT_RUN"},
+  "reason": "UE not detected in configured/PATH/standard install locations. No UE binaries/headers/editor available for validation in this session."
+}

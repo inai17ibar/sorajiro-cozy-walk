@@ -1,0 +1,40 @@
+{
+  "observed_at_utc": "2026-10-18T11:09:19.507637+00:00",
+  "checks": [
+    {
+      "name": "Sorajiro.Runtime",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+    },
+    {
+      "name": "Sorajiro.Editor",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+    },
+    {
+      "name": "MotionPolicyTest",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+    },
+    {
+      "name": "MotionPolicy_execution",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+    },
+    {
+      "name": "PlushGaitTest",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/PlushGaitTest.log"
+    },
+    {
+      "name": "PlushGait_execution",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+    }
+  ],
+  "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+  "unity_import": "not_run",
+  "player_build": "not_run",
+  "render": "not_run",
+  "performance": "not_run"
+}

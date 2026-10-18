@@ -1,0 +1,396 @@
+{
+  "scope": "Integrity of existing local engine evidence. Does not execute or approve rendering.",
+  "collected_at_utc": "2026-10-13T10:05:20.888324+00:00",
+  "scene": "Assets/Sorajiro/Generated/Twilight_v008/L_LookDev.unity",
+  "generated_receipt_sha256": "721dd228a958f91ce953b02db52fc75bc15af8ccd07dc3f2e7130ed71298195e",
+  "art": {
+    "Bear": {
+      "receipt_sha256": "9659f41ffd34007d22ef06abd9a7ecb5235d86057f0cadf0eca06cfffd795949",
+      "observations": {
+        "blender": "5.2.0 LTS",
+        "units": "metres / Z-up / -Y face; FBX -Z forward / Y-up",
+        "height_m": 0.3957284498028457,
+        "cloth_vertices": 53782,
+        "cloth_polygons": 75657,
+        "bone_names": [
+          "root",
+          "body",
+          "head",
+          "arm_L",
+          "leg_L",
+          "foot_L",
+          "ear_L",
+          "arm_R",
+          "leg_R",
+          "foot_R",
+          "ear_R"
+        ],
+        "fur_quads": 299342,
+        "fur_ribbons": 149671,
+        "state": "generated_editable_model_uv_generic_rig_trial",
+        "animation": "Unity clips generated separately; editable Blender rest rig",
+        "unity_import": "not_yet_verified"
+      }
+    },
+    "Room": {
+      "receipt_sha256": "6bd246ea8f0a9612c4b1b368e7e6917848bc474f8cce3cdbf12c409d529ab918",
+      "observations": {
+        "blender": "5.2.0 LTS",
+        "state": "generated_editable_room_trial",
+        "source_objects": 626,
+        "export_meshes": 17,
+        "triangles": 1412344,
+        "unity_import": "not_yet_verified",
+        "cloth_bake": "110 real Blender frames at 24Hz, gravity, mattress collision, pinned head end, 12mm thickness. Static exported mesh, not runtime cloth.",
+        "cloth_min_height_m": 0.2803491950035095,
+        "provenance": "original geometry guided by owner-selected twilight references; private reference rights unreviewed"
+      }
+    }
+  },
+  "images": [
+    {
+      "path": "Artifacts/Visual/twilight/20261013T095157941/S01_Portrait_pile_OFF.png",
+      "sha256": "4f69c12d7b8c6237fb1e912e171403fc6e1728c0c515ccc413412a84c4cf23f4",
+      "metadata": {
+        "utc": "2026-10-13T09:52:04.5786090Z",
+        "shot": "S01_Portrait_pile_OFF",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "verticalFov": 38.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": false,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 6.5,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "master_bear_full_body_pile_rig_animation_and_twilight_room_trial",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/twilight/20261013T095157941/S01_Portrait_pile_ON.png",
+      "sha256": "644d876e9f4b542c065f6dc857319294aacedf996cba59902cd2e5d4d5d4667c",
+      "metadata": {
+        "utc": "2026-10-13T09:51:58.8981010Z",
+        "shot": "S01_Portrait_pile_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "verticalFov": 38.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 6.5,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "master_bear_full_body_pile_rig_animation_and_twilight_room_trial",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/twilight/20261013T095157941/S02_Gameplay_pile_OFF.png",
+      "sha256": "0e7e12de7756449289afb1ca535b9225f66dbc2b5fcdd91a88c59959b29dda03",
+      "metadata": {
+        "utc": "2026-10-13T09:52:03.8422330Z",
+        "shot": "S02_Gameplay_pile_OFF",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.6800000071525574,
+          "y": 0.2800000011920929,
+          "z": -1.75
+        },
+        "rotation": {
+          "x": 356.27294921875,
+          "y": 342.8240966796875,
+          "z": -5.3473947048132686e-08
+        },
+        "verticalFov": 48.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": false,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 6.5,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "master_bear_full_body_pile_rig_animation_and_twilight_room_trial",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/twilight/20261013T095157941/S02_Gameplay_pile_ON.png",
+      "sha256": "99c9a93f12dff17342873aa4834a52abae70ff3cc36ec196e3d63b9992272094",
+      "metadata": {
+        "utc": "2026-10-13T09:51:59.7138200Z",
+        "shot": "S02_Gameplay_pile_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.6800000071525574,
+          "y": 0.2800000011920929,
+          "z": -1.75
+        },
+        "rotation": {
+          "x": 356.27294921875,
+          "y": 342.8240966796875,
+          "z": -5.3473947048132686e-08
+        },
+        "verticalFov": 48.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 6.5,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "master_bear_full_body_pile_rig_animation_and_twilight_room_trial",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/twilight/20261013T095157941/S03_ThreeQuarter_pile_ON.png",
+      "sha256": "c16edc8f8fe8ddb0b03e4b2c0dfe6f77399557e861fc68c87ecb6ac049210bf8",
+      "metadata": {
+        "utc": "2026-10-13T09:52:00.5182390Z",
+        "shot": "S03_ThreeQuarter_pile_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.2800000011920929,
+          "z": -1.1200000047683716
+        },
+        "rotation": {
+          "x": 5.691587924957275,
+          "y": 331.9754943847656,
+          "z": -1.0725041477144259e-07
+        },
+        "verticalFov": 38.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 6.5,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "master_bear_full_body_pile_rig_animation_and_twilight_room_trial",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/twilight/20261013T095157941/S04_Contact_pile_ON.png",
+      "sha256": "c5eecd41cea5768d1c10304c2f248406cff0f34a9fc78b4eb895ddc16b0cd53d",
+      "metadata": {
+        "utc": "2026-10-13T09:52:01.3384420Z",
+        "shot": "S04_Contact_pile_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.18000000715255737,
+          "y": 0.10000000149011612,
+          "z": -0.8299999833106995
+        },
+        "rotation": {
+          "x": 8.292232513427734,
+          "y": 317.726318359375,
+          "z": 4.3139695549143653e-07
+        },
+        "verticalFov": 36.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 6.5,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "master_bear_full_body_pile_rig_animation_and_twilight_room_trial",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/twilight/20261013T095157941/S05_Bedding_pile_ON.png",
+      "sha256": "934dc1030fb9e75a413331cbac5bcf3872050969f493111722912ad0d9f2c9f6",
+      "metadata": {
+        "utc": "2026-10-13T09:52:02.0815640Z",
+        "shot": "S05_Bedding_pile_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": -0.25,
+          "y": 1.0499999523162842,
+          "z": -0.6499999761581421
+        },
+        "rotation": {
+          "x": 16.67683219909668,
+          "y": 317.2906188964844,
+          "z": 0.0
+        },
+        "verticalFov": 43.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 6.5,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "master_bear_full_body_pile_rig_animation_and_twilight_room_trial",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/twilight/20261013T095157941/S06_Back_pile_ON.png",
+      "sha256": "d0303955d4920fe525bb7e51b5327509a2da4909fff03f4bf2477c2b15a8f8e4",
+      "metadata": {
+        "utc": "2026-10-13T09:52:03.0249630Z",
+        "shot": "S06_Back_pile_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": -0.3499999940395355,
+          "y": 0.2800000011920929,
+          "z": 0.05000000074505806
+        },
+        "rotation": {
+          "x": 4.794228553771973,
+          "y": 157.30621337890625,
+          "z": 0.0
+        },
+        "verticalFov": 38.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 6.5,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "master_bear_full_body_pile_rig_animation_and_twilight_room_trial",
+        "ownerQualityApproved": false
+      }
+    }
+  ],
+  "tests": {
+    "twilight-skin-test.txt": "PASS: real imported FBX UVs, generic skin, HDRP remapped materials.\nhead: maximum world-space displacement=0.051528m; foot displacement=0.000000m\narm_L: maximum world-space displacement=0.027709m; foot displacement=0.000000m\nleg_L: maximum world-space displacement=0.022155m; foot displacement=0.022155m\nFullBody_ShortPile_TRIAL: vertices=928672; triangles=598684; bones=11\nBear_SkinnedBody_ArtTrial: vertices=113470; triangles=206760; bones=11\nfull pile head: max displacement=0.052175m\nfull pile arm_L: max displacement=0.028299m\nfull pile leg_L: max displacement=0.022860m\nTrial weights only: clip playback, foot-sliding, joints and fur-binding still require motion inspection.\n",
+    "twilight-animation-clips.txt": "PASS: Real FBX + editable native AnimationClip sampling in isolated Unity preview scene.\nIdle: duration=2s; 56 bound position/quaternion curves; loop=True\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.001936m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.001954m\nWalk: duration=0.52s; 56 bound position/quaternion curves; loop=True\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.020771m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.020776m\nRun: duration=0.4s; 56 bound position/quaternion curves; loop=True\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.035958m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.036040m\nJump: duration=0.2s; 56 bound position/quaternion curves; loop=False\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.015853m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.016162m\nFall: duration=0.35s; 56 bound position/quaternion curves; loop=True\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.011498m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.011594m\nLand: duration=0.16s; 56 bound position/quaternion curves; loop=False\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.016575m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.016701m\nThis is sampled deformation, not foot-contact, motion quality or a Player build approval.\n",
+    "twilight-sole-test.txt": "PASS: imported weighted sole + real clips + controller-distance compensation.\nWalk/L: 877 sole vertices; support centroid world drift=0.000003m over 13 real clip samples.\nRun/L: 877 sole vertices; support centroid world drift=0.000006m over 13 real clip samples.\nWalk/R: 851 sole vertices; support centroid world drift=0.000003m over 13 real clip samples.\nRun/R: 851 sole vertices; support centroid world drift=0.000006m over 13 real clip samples.\nConstant-speed straight support only; turns, transitions, obstacles and live foot contact still need visual review.\n",
+    "twilight-surfaces-test.txt": "PASS: actual generated quilt PNG blue/white contrast, imported material binding, HDRP reflection texture=256px.\nScene=Assets/Sorajiro/Generated/Twilight_v008/L_LookDev.unity\nReflection capture exists; reflection quality and GPU workload are not benchmarked.\n"
+  },
+  "runtime": null,
+  "assemblies": {
+    "Sorajiro.Runtime.dll": "198b2fb3d4390088af9c4caec5ada4742ba44d5608a6b40719f1ba4dfe3750bb",
+    "Sorajiro.Editor.dll": "c0ce9704412b9541b19d5a51a6317ff2aa8ed5d15374354ca4ac8a2164d76f60"
+  },
+  "motion": null,
+  "live_execution_checked": false,
+  "source_checks": {
+    "observed_at_utc": "2026-10-13T09:47:18.727562+00:00",
+    "checks": [
+      {
+        "name": "Sorajiro.Runtime",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+      },
+      {
+        "name": "Sorajiro.Editor",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+      },
+      {
+        "name": "MotionPolicyTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+      },
+      {
+        "name": "MotionPolicy_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+      },
+      {
+        "name": "PlushGaitTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGaitTest.log"
+      },
+      {
+        "name": "PlushGait_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+      }
+    ],
+    "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+    "unity_import": "not_run",
+    "player_build": "not_run",
+    "render": "not_run",
+    "performance": "not_run"
+  },
+  "not_verified": [
+    "current live Animator/physics integration",
+    "current Play motion",
+    "owner visual approval",
+    "foot sliding and all motion artifacts",
+    "runtime bedding deformation",
+    "LOD and quality workload controls",
+    "Player build",
+    "Windows",
+    "performance and memory pressure"
+  ]
+}

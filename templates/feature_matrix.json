@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "engine_version": null,
+  "machine": null,
+  "os_version": null,
+  "test_date": null,
+  "features": [
+    {
+      "name": "Groom Strands / Mac SM6",
+      "docs_status_at_2026_10_02": "UE 5.8: M2+ and SM6 listed",
+      "editor": "NOT_RUN",
+      "packaged": "NOT_RUN",
+      "actual_image": null,
+      "notes": null
+    },
+    {
+      "name": "Groom Cards/Mesh",
+      "docs_status_at_2026_10_02": "Listed across platforms",
+      "editor": "NOT_RUN",
+      "packaged": "NOT_RUN",
+      "actual_image": null,
+      "notes": null
+    },
+    {
+      "name": "Groom binding and animated deformation",
+      "docs_status_at_2026_10_02": "See platform restrictions; actual asset required",
+      "editor": "NOT_RUN",
+      "packaged": "NOT_RUN",
+      "actual_image": null,
+      "notes": null
+    },
+    {
+      "name": "Lumen software tracing",
+      "docs_status_at_2026_10_02": "Mac support listed",
+      "editor": "NOT_RUN",
+      "packaged": "NOT_RUN",
+      "actual_image": null,
+      "notes": null
+    },
+    {
+      "name": "Lumen hardware RT",
+      "docs_status_at_2026_10_02": "UE 5.8: M2+ Experimental; optional",
+      "editor": "NOT_RUN",
+      "packaged": "NOT_RUN",
+      "actual_image": null,
+      "notes": null
+    },
+    {
+      "name": "Nanite and VSM",
+      "docs_status_at_2026_10_02": "UE 5.8: M2+ Beta; optional",
+      "editor": "NOT_RUN",
+      "packaged": "NOT_RUN",
+      "actual_image": null,
+      "notes": null
+    }
+  ]
+}

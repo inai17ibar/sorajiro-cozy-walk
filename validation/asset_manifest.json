@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "reference_manifest": "reference/manifest.json",
+  "binary_storage": {"state": "PENDING_AGREEMENT", "git_lfs_working": false, "note": "Bad CPU type in executable observed. Generated UE binaries remain ignored/local; no LFS pointer assets supplied."},
+  "assets": [
+    {"id": "bear_reference", "state": "reference", "source_file": "reference/bear_plush.png", "render_verified": false, "public_redistribution_approved": false},
+    {"id": "room_concept", "state": "reference_concept", "source_file": "reference/target_room.png", "render_verified": false, "public_redistribution_approved": false},
+    {"id": "legacy_gameplay", "state": "reference_legacy_render", "source_file": "reference/legacy_gameplay.jpg", "UE_render_verified": false, "public_redistribution_approved": false},
+    {"id": "legacy_plush", "state": "reference_legacy_render", "source_file": "reference/legacy_plush.jpg", "UE_render_verified": false, "public_redistribution_approved": false},
+    {"id": "m1_character_visual", "state": "placeholder_source_only", "role": "40cm_ellipsoid_no_fur_no_rig", "source_file": "Unreal/Source/Sorajiro/Private/SorajiroCharacter.cpp", "mesh_dependency": "/Engine/BasicShapes/Sphere", "origin": "Epic engine built-in primitive", "rights_review": "Review Epic engine/content terms before distribution", "render_verified": false},
+    {"id": "m1_floor_boundaries_block", "state": "recipe_not_generated", "generator": "Tools/Unreal/generate_bootstrap.py", "recipe": "Tools/Unreal/recipes/bootstrap_v001.json", "generator_version": "m1.1", "seed": 0, "ue_package_path": "/Game/Generated/M1/Bootstrap_v001/L_Bootstrap", "sha256": null, "editor_import_verified": false, "render_verified": false, "quality": "placeholder cubes using Epic built-in mesh"},
+    {"id": "m1_materials", "state": "recipe_not_generated", "names": ["M_PreviewBlue", "M_PreviewFloor", "M_PreviewWall"], "quality": "constant_color_roughness_only", "generator": "Tools/Unreal/generate_bootstrap.py", "sha256": null, "render_verified": false},
+    {"id": "hero_full_body", "state": "NOT_CREATED", "role": "full_body_skeletal_mesh_UV_rig_materials", "source_file": null, "sha256": null, "render_verified": false, "approved": false},
+    {"id": "hero_groom", "state": "NOT_CREATED", "source_file": null, "binding_mesh_id": null, "exporter_version": null, "render_verified": false, "approved": false},
+    {"id": "hero_cards_mesh", "state": "NOT_CREATED", "source_file": null, "render_verified": false, "approved": false},
+    {"id": "lookdev_scene", "state": "plan_not_generated", "recipe": "Tools/Unreal/recipes/lookdev_plan_v001.json", "ue_package_path": "/Game/Sorajiro/LookDev/L_LookDev", "render_verified": false, "approved": false}
+  ],
+  "provenance": {"new_recipe_and_source": "Authored in this development task", "references_rights": "See reference/manifest.json; not approved for public redistribution", "third_party_downloads": [], "all_quality_approvals": "PENDING"}
+}

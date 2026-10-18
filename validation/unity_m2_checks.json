@@ -1,0 +1,375 @@
+{
+  "scope": "existing local evidence integrity; not a fresh engine execution or quality/performance approval",
+  "collected_at_utc": "2026-10-12T09:54:48.275651+00:00",
+  "scene": "/Users/soichiro.inatani/Documents/Unity/sorajiro-unity/Assets/Sorajiro/Generated/M2_v003",
+  "asset_receipt_sha256": "ce7a4b7c3f726f4863272c14f68104971e05ca8530d6beec47591eb6a655d2ce",
+  "art_observations": {
+    "blender": "5.2.0 LTS",
+    "units": "metres / Z-up / -Y face; FBX -Z forward / Y-up",
+    "height_m": 0.3987054436802282,
+    "cloth_vertices": 55977,
+    "cloth_polygons": 78321,
+    "bone_names": [
+      "root",
+      "body",
+      "head",
+      "arm_L",
+      "leg_L",
+      "ear_L",
+      "arm_R",
+      "leg_R",
+      "ear_R"
+    ],
+    "fur_patch_quads": 14400,
+    "state": "generated_editable_model_uv_generic_rig_trial",
+    "animation": "not_created",
+    "unity_import": "not_yet_verified"
+  },
+  "images": [
+    {
+      "path": "Artifacts/Visual/current/20261012T093357045/S01_Portrait_patch_ON.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6cffca9f27b06196545de32d27fbcd9e2bba326e7b9d1b0af6e35c8feeca1d8b",
+      "metadata": {
+        "utc": "2026-10-12T09:33:57.7187840Z",
+        "shot": "S01_Portrait_patch_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.0,
+          "y": 0.30000001192092896,
+          "z": 0.5600000023841858
+        },
+        "rotation": {
+          "x": 1.6365773677825928,
+          "y": 180.0,
+          "z": 0.0
+        },
+        "verticalFov": 38.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 8.0,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "generated_imported_lookdev_trial; back-head short-pile patch only; no walk animation",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/current/20261012T093357045/S02_Gameplay_patch_OFF.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4de283904509589bb0db66f50013cca5360e3a70163e31ab0196f6d3327efa4a",
+      "metadata": {
+        "utc": "2026-10-12T09:33:59.2697770Z",
+        "shot": "S02_Gameplay_patch_OFF",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.0,
+          "y": 0.47999998927116394,
+          "z": -1.149999976158142
+        },
+        "rotation": {
+          "x": 10.885527610778809,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "verticalFov": 48.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": false,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 8.0,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "generated_imported_lookdev_trial; back-head short-pile patch only; no walk animation",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/current/20261012T093357045/S02_Gameplay_patch_ON.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d32ef8a85a5726be2aabf0d6f000e3c8d7ba3dbcefe3edb6311d30c46c3a7ae7",
+      "metadata": {
+        "utc": "2026-10-12T09:33:58.0622020Z",
+        "shot": "S02_Gameplay_patch_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.0,
+          "y": 0.47999998927116394,
+          "z": -1.149999976158142
+        },
+        "rotation": {
+          "x": 10.885527610778809,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "verticalFov": 48.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 8.0,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "generated_imported_lookdev_trial; back-head short-pile patch only; no walk animation",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/current/20261012T093357045/S03_ThreeQuarter_patch_ON.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2f4c5e592fe998ba3b7244456969508981b202d80e1f9468d12511073c6edee0",
+      "metadata": {
+        "utc": "2026-10-12T09:33:58.3856850Z",
+        "shot": "S03_ThreeQuarter_patch_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.44999998807907104,
+          "y": 0.30000001192092896,
+          "z": 0.5799999833106995
+        },
+        "rotation": {
+          "x": 7.373697280883789,
+          "y": 217.8065185546875,
+          "z": 0.0
+        },
+        "verticalFov": 38.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 8.0,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "generated_imported_lookdev_trial; back-head short-pile patch only; no walk animation",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/current/20261012T093357045/S04_Contact_patch_ON.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1182d8b43b4dc7faef090806cf05ee185269a02d8896e8be6f016d70fdd633cc",
+      "metadata": {
+        "utc": "2026-10-12T09:33:58.8448940Z",
+        "shot": "S04_Contact_patch_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "TemporalAntialiasing",
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.10999999940395355,
+          "z": 0.3199999928474426
+        },
+        "rotation": {
+          "x": 11.086568832397461,
+          "y": 213.27488708496094,
+          "z": 4.350049778167886e-07
+        },
+        "verticalFov": 36.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 8.0,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "generated_imported_lookdev_trial; back-head short-pile patch only; no walk animation",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/current/20261012T093357045/S05_PilePatch_Diagnostic_patch_OFF.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c354a7bb66b316e91373bec47b132e263b07d39b1056a7fb66288786b267ed26",
+      "metadata": {
+        "utc": "2026-10-12T09:34:00.5944250Z",
+        "shot": "S05_PilePatch_Diagnostic_patch_OFF",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "None",
+        "position": {
+          "x": 0.0,
+          "y": 0.30000001192092896,
+          "z": -0.1899999976158142
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "verticalFov": 35.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": false,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 8.0,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "generated_imported_lookdev_trial; back-head short-pile patch only; no walk animation",
+        "ownerQualityApproved": false
+      }
+    },
+    {
+      "path": "Artifacts/Visual/current/20261012T093357045/S05_PilePatch_Diagnostic_patch_ON.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f43b6c07007624961acbfac077accc7b358de6456ae80219d8b6571b6ba252b5",
+      "metadata": {
+        "utc": "2026-10-12T09:33:59.9533690Z",
+        "shot": "S05_PilePatch_Diagnostic_patch_ON",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "aa": "None",
+        "position": {
+          "x": 0.0,
+          "y": 0.30000001192092896,
+          "z": -0.1899999976158142
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "verticalFov": 35.0,
+        "dynamicResolution": false,
+        "dlss": false,
+        "fsr2": false,
+        "patchActive": true,
+        "width": 1920,
+        "height": 1080,
+        "warmupRenderRequests": 24,
+        "fixedEV": 8.0,
+        "scope": "Actual HDRP StandardRequest camera output in Editor, not path tracing, Game-view screenshot, motion or performance benchmark",
+        "internalResolution": "1920x1080 render target; dynamic scale false; camera dynamic resolution and DLSS/FSR2 disabled",
+        "assetState": "generated_imported_lookdev_trial; back-head short-pile patch only; no walk animation",
+        "ownerQualityApproved": false
+      }
+    }
+  ],
+  "skin_test": "PASS: real imported FBX UVs, generic skin, HDRP remapped materials.\nhead: maximum world-space displacement=0.053266m; foot displacement=0.000000m\narm_L: maximum world-space displacement=0.034673m; foot displacement=0.000000m\nleg_L: maximum world-space displacement=0.023815m; foot displacement=0.023815m\nTrial weights only: not a walk-cycle, foot-sliding, joint or fur-binding visual approval.\n",
+  "motor_smoke": "Scene=Assets/Sorajiro/Generated/M2_v003/L_LookDev.unity\nPASS: actual CharacterController with production Step; grounding, walk/run/diagonal, 30/60 movement steps, jump/landing, air-jump refusal, boundary, return.\nWalk distance=0.23333m; jump peak=0.12635m.\nSynchronous physics smoke, not a keyboard/device, frame-loop, long stability or performance test.\n",
+  "guard_tests": "PASS: 6 actual Unity JsonUtility/receipt checks: empty, unowned, reuse, version, receipt overwrite, owner edit.\n",
+  "runtime": {
+    "utc": "2026-10-12T09:40:15.7943980Z",
+    "unity": "6000.6.5f1",
+    "gpu": "Apple M3 Max",
+    "graphicsApi": "Metal",
+    "scenePath": "Assets/Sorajiro/Generated/M2_v003/L_LookDev.unity",
+    "position": {
+      "x": 0.0,
+      "y": 0.024999970570206642,
+      "z": 0.0
+    },
+    "cameraPosition": {
+      "x": 0.0,
+      "y": 0.5855828523635864,
+      "z": -1.1591110229492188
+    },
+    "cameraEuler": {
+      "x": 15.000001907348633,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "grounded": true,
+    "paused": false,
+    "focused": true,
+    "outputWidth": 1210,
+    "outputHeight": 1291,
+    "fieldOfViewVertical": 55.0,
+    "scope": "Editor Play snapshot; not a Player build, fixed-shot comparison, motion clip or performance benchmark",
+    "assetState": "generated_model_uv_generic_rig_back_head_pile_patch_no_animation",
+    "internalResolution": "unverified",
+    "upscaler": "unverified"
+  },
+  "editor_assemblies": {
+    "Sorajiro.Runtime.dll": {
+      "sha256": "fbac88dc73a691127518947b68f3620167905584eb3d9f62f85f6d3b4682ee0d",
+      "compiled_after_corresponding_sources": true,
+      "mtime_unix": 1791797060.678814
+    },
+    "Sorajiro.Editor.dll": {
+      "sha256": "ab5b0661ddb349ddaf7c38886f7e864ed829c78e3f28afac19e277f09f2cf57c",
+      "compiled_after_corresponding_sources": true,
+      "mtime_unix": 1791797791.79333
+    }
+  },
+  "source_checks": {
+    "observed_at_utc": "2026-10-12T09:35:43.480929+00:00",
+    "checks": [
+      {
+        "name": "Sorajiro.Runtime",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+      },
+      {
+        "name": "Sorajiro.Editor",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+      },
+      {
+        "name": "MotionPolicyTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+      },
+      {
+        "name": "MotionPolicy_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+      }
+    ],
+    "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+    "unity_import": "not_run",
+    "player_build": "not_run",
+    "render": "not_run",
+    "performance": "not_run"
+  },
+  "not_verified": [
+    "full-body fur",
+    "walk animation",
+    "motion clips",
+    "reference quality approval",
+    "Player build",
+    "Windows",
+    "performance and memory pressure"
+  ]
+}

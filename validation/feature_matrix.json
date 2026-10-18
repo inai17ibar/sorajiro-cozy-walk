@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "engine_version_installed": null,
+  "engine_candidate_minor": "5.8",
+  "machine_observed": "MacBook Pro M3 Max / 30 GPU cores / 36GB unified memory",
+  "os_observed": "macOS 27.0.1",
+  "xcode_observed": "27.0 / 27A266a",
+  "test_date": null,
+  "documentation_checked_at": "2026-10-02",
+  "features": [
+    {"name": "Groom Strands / Mac SM6", "documentation_status": "UE 5.8 documents Mac M2+ and Shader Model 6; not a benchmark", "source": "https://dev.epicgames.com/documentation/unreal-engine/groom-platform-support-in-unreal-engine", "editor": "NOT_RUN", "packaged": "NOT_RUN", "actual_image": null, "gpu_frame_ms": null},
+    {"name": "Groom Cards/Mesh", "documentation_status": "Geometry support listed across platforms; no quality/performance conclusion", "source": "https://dev.epicgames.com/documentation/unreal-engine/groom-platform-support-in-unreal-engine", "editor": "NOT_RUN", "packaged": "NOT_RUN", "actual_image": null, "gpu_frame_ms": null},
+    {"name": "Groom skinned binding", "documentation_status": "Skinned attachment listed for desktop; exporter and hero skeletal asset not created", "source": "https://dev.epicgames.com/documentation/unreal-engine/groom-platform-support-in-unreal-engine", "editor": "NOT_RUN", "packaged": "NOT_RUN", "actual_image": null},
+    {"name": "Lumen software tracing", "documentation_status": "Mac support listed; software tracing is the baseline candidate", "source": "https://dev.epicgames.com/documentation/unreal-engine/macos-development-requirements-for-unreal-engine", "editor": "NOT_RUN", "packaged": "NOT_RUN", "actual_image": null, "gpu_frame_ms": null},
+    {"name": "Lumen hardware RT", "documentation_status": "UE 5.8 Mac M2+ experimental listing; optional, disabled for M1", "source": "https://dev.epicgames.com/documentation/unreal-engine/macos-development-requirements-for-unreal-engine", "editor": "NOT_RUN", "packaged": "NOT_RUN", "actual_image": null},
+    {"name": "Nanite and VSM", "documentation_status": "UE 5.8 Mac M2+ beta listing; optional. M1 uses cubes and non-VSM shadows", "source": "https://dev.epicgames.com/documentation/unreal-engine/macos-development-requirements-for-unreal-engine", "editor": "NOT_RUN", "packaged": "NOT_RUN", "actual_image": null},
+    {"name": "Observed Xcode 27.0 + candidate UE", "documentation_status": "Current Mac requirements recommend Xcode 26.1.1 for 5.8. Observed 27.0 compatibility is unverified", "source": "https://dev.epicgames.com/documentation/unreal-engine/macos-development-requirements-for-unreal-engine", "build": "NOT_RUN", "editor": "NOT_RUN", "packaged": "NOT_RUN"}
+  ],
+  "missing_for_measurement": ["installed chosen UE patch", "UBT/UHT build", "real full-body bear assets", "real groom/cards assets", "actual screenshots and motion clips", "recorded workload and internal resolution"]
+}

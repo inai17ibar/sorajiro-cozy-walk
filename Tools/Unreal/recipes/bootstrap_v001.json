@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "generator_version": "m1.1",
+  "seed": 0,
+  "units": "cm",
+  "axes": "Z-up, +X forward",
+  "output_root": "/Game/Generated/M1/Bootstrap_v001",
+  "map_name": "L_Bootstrap",
+  "asset_state": "placeholder",
+  "materials": [
+    {"name": "M_PreviewBlue", "linear_color": [0.15, 0.48, 0.68], "roughness": 0.85},
+    {"name": "M_PreviewFloor", "linear_color": [0.28, 0.16, 0.08], "roughness": 0.65},
+    {"name": "M_PreviewWall", "linear_color": [0.6, 0.52, 0.4], "roughness": 0.9}
+  ],
+  "actors": [
+    {"id": "Floor_PLACEHOLDER", "kind": "cube", "location": [0, 0, -5], "scale": [6, 6, 0.1], "material": "M_PreviewFloor"},
+    {"id": "Boundary_PosX", "kind": "cube", "location": [305, 0, 60], "scale": [0.1, 6.2, 1.2], "material": "M_PreviewWall"},
+    {"id": "Boundary_NegX", "kind": "cube", "location": [-305, 0, 60], "scale": [0.1, 6.2, 1.2], "material": "M_PreviewWall"},
+    {"id": "Boundary_PosY", "kind": "cube", "location": [0, 305, 60], "scale": [6, 0.1, 1.2], "material": "M_PreviewWall"},
+    {"id": "Boundary_NegY", "kind": "cube", "location": [0, -305, 60], "scale": [6, 0.1, 1.2], "material": "M_PreviewWall"},
+    {"id": "JumpBlock_PLACEHOLDER", "kind": "cube", "location": [100, 40, 6], "scale": [0.4, 0.6, 0.12], "material": "M_PreviewFloor"},
+    {"id": "Start", "kind": "player_start", "location": [-80, 0, 24]},
+    {"id": "WarmKey_PREVIEW", "kind": "directional_light", "location": [180, 180, 220], "rotation": [-35, -135, 0], "intensity": 4.0, "temperature": 4800, "source_angle": 3.0},
+    {"id": "Fill_PREVIEW", "kind": "point_light", "location": [-100, -70, 110], "intensity": 800.0, "temperature": 6500, "radius": 500.0}
+  ],
+  "notes": "Geometry and constant-color preview materials only. No fur, bear rig, wood grain or final lighting. Light intensities are trial values, not render-verified."
+}

@@ -1,0 +1,34 @@
+# Engine installations must remain outside this repository.
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Artifacts/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+*.local.ini
+.vs/
+*.sln
+*.suo
+*.user
+*.xcworkspace/
+*.xcodeproj/
+# Binary content stays local until a working LFS/storage workflow is agreed.
+Unreal/Content/**/*.uasset
+Unreal/Content/**/*.umap
+Unreal/Content/**/*.uexp
+Unreal/Content/**/*.ubulk
+# Do not ignore Build/: icons and packaging resources may belong in Git.
+# Unity project caches and local output. Keep source and .meta files.
+Library/
+Temp/
+Logs/
+UserSettings/
+obj/
+Builds/
+MemoryCaptures/
+Recordings/

@@ -1,0 +1,7 @@
+{
+  "name": "Sorajiro.Editor",
+  "rootNamespace": "Sorajiro.Editor",
+  "references": ["Sorajiro.Runtime", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.HighDefinition.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

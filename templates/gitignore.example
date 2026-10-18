@@ -1,0 +1,22 @@
+# Apply as .gitignore only after reviewing existing repository rules.
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Artifacts/
+.vs/
+.idea/
+*.sln
+*.suo
+*.user
+*.xcworkspace/
+*.xcodeproj/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+*.local.ini
+# Do NOT globally ignore Build/: it may contain required project assets.
+# Do not commit engine installation directories, secrets, or licensed downloads.

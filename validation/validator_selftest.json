@@ -1,0 +1,32 @@
+{
+  "scope": "validation_tool_only_not_UE_tests",
+  "image_decoding": [
+    {
+      "image": "target_room.png",
+      "width": 1672,
+      "height": 941,
+      "decoded": true
+    },
+    {
+      "image": "legacy_gameplay.jpg",
+      "width": 1400,
+      "height": 900,
+      "decoded": true
+    },
+    {
+      "image": "bear_plush.png",
+      "width": 1408,
+      "height": 1408,
+      "decoded": true
+    },
+    {
+      "image": "legacy_plush.jpg",
+      "width": 1400,
+      "height": 900,
+      "decoded": true
+    }
+  ],
+  "tampered_reference_rejected": true,
+  "missing_required_document_rejected": true,
+  "unmodified_package_passes": true
+}

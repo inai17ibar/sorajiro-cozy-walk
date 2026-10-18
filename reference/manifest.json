@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "references": [
+    {
+      "path": "reference/bear_plush.png",
+      "sha256": "33d820afc6468bbc56c241e4ae339901e55bab5a660ee18d7f9bd343976413db",
+      "bytes": 2133398,
+      "meaning": "Character appearance reference supplied in conversation; not a UE runtime asset or result.",
+      "rights_status": "reference_use_in_this_private_development_handoff; review_before_public_distribution"
+    },
+    {
+      "path": "reference/target_room.png",
+      "sha256": "4bafb182333844230c85777addbb893f636a73d2580d02f5d63a69772e6a3783",
+      "bytes": 3084712,
+      "meaning": "User-selected generated scene concept; target, not actual UE gameplay.",
+      "rights_status": "reference_use_in_this_private_development_handoff; review_before_public_distribution"
+    },
+    {
+      "path": "reference/legacy_gameplay.jpg",
+      "sha256": "9349646589216c5d8756f21d1a218eb7e10bf0dae0ec58adbc160af0417e7e73",
+      "bytes": 251726,
+      "meaning": "Earlier browser/WebGL render; not UE output, not rerun for this handoff.",
+      "rights_status": "reference_use_in_this_private_development_handoff; review_before_public_distribution"
+    },
+    {
+      "path": "reference/legacy_plush.jpg",
+      "sha256": "1fbbe442ba43efd4c1f25c9f397850e4d88b0bf1162267fa0c10b2c5c22e4720",
+      "bytes": 200414,
+      "meaning": "Earlier browser/WebGL plush render; not UE output, not rerun for this handoff.",
+      "rights_status": "reference_use_in_this_private_development_handoff; review_before_public_distribution"
+    },
+    {
+      "path": "reference/twilight_star_room.png",
+      "sha256": "498f7dcaf11d1bd088f563ca9e0832e41eede65a99e8c5780b0ef4163be26d86",
+      "bytes": 1907646,
+      "meaning": "Owner-selected twilight art direction; concept reference, not runtime validation. Supplied 2026-10-12.",
+      "rights_status": "private_reference_use; review_before_public_distribution"
+    },
+    {
+      "path": "reference/twilight_bear_walk.png",
+      "sha256": "ffd112fe83abdd8838789fe382c02103b6f53b3c793fd2993e90e338ed6e54c5",
+      "bytes": 1858727,
+      "meaning": "Owner-selected twilight art direction; concept reference, not runtime validation. Supplied 2026-10-12.",
+      "rights_status": "private_reference_use; review_before_public_distribution"
+    },
+    {
+      "path": "reference/bear_master_20261012.jpg",
+      "sha256": "4c6ea305b52524b730b1689ab6efdb060fd784b36e873c3103c833443a56bbde",
+      "bytes": 368227,
+      "meaning": "Authoritative bear model master selected by owner 2026-10-12. Controls silhouette, face, applique, pile. Not runtime output.",
+      "rights_status": "private_reference_use; review_before_public_distribution"
+    },
+    {
+      "path": "reference/bear_turnaround_20261012.png",
+      "sha256": "2551183f17724d37c8d6a19ea3e63a23984a37da4a3917e8901869448a8f2a6b",
+      "bytes": 1893368,
+      "meaning": "Owner-supplied multi-view modeling guide 2026-10-12. Supplements the authoritative front master for side/back/top/soles and seams; not runtime output.",
+      "rights_status": "private_reference_use; review_before_public_distribution"
+    }
+  ]
+}
