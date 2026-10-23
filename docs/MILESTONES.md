@@ -1,6 +1,16 @@
 # マイルストーンと小さなタスク
 
-**2026-10-18 更新：最新はTwilight v010。** 編みかご・立体の編み物・ラグ模様・木材素材・窓外の形状・発光と補光を更新しました。実Unity/Metalの1080p固定8枚と30秒Play動画を取得し、実アセット・足裏・衝突・Animatorを検証。画質承認・Player build・性能は未完了です。 [変更・実画像・動画・再現手順](UNITY_ASSET_QUALITY_REPORT.md)、[追加ソフトとTripo制作方針](AI_ASSET_WORKFLOW_JA.md)。以下は過去の記録です。
+**2026-10-24 更新：選択されたBearFit v001・比較3をベッドサイドへ配置しました。** 新シーンは `Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity`。素材色を維持し、部屋用の補光・専用GPUベイク/APVを追加。実Metal固定6枚と30秒Playを記録しました。Unityの `Sorajiro → Bedside Bear → 2. Open selected bear in bedside room` で開けます。足元・股下・室内画質承認・Player build・性能は残課題です。[実画像・検証・Mac手順](UNITY_BEDSIDE_BEAR_REPORT.md)。
+
+**2026-10-19 更新：体型と正面の毛並みの比較試作はBearFit v002。** 前回2の素材を維持し、腹部の丸み・脚の間隔・面光源を調整。実Metal固定12枚、6クリップの変形と足裏検査、30秒ルートのPlayを記録しました。Unityの `Sorajiro → Bear Fit → 2. Open shape and lighting study` から開けます。股下の伸び・接地影・画質承認・Player build・性能は残課題です。[実画像・検証とMac手順](UNITY_BEAR_FIT_REPORT.md)。
+
+**2026-10-19 更新：短毛の比較試作はFleece v005。** 寝た細い毛束と布の微細な凹凸を追加し、実Metalのスタジオ11枚・室内4枚と30秒ルートのPlay動画を取得しました。既存の部屋はBedside v009を保持。Unityの `Sorajiro → Fleece → 2. Open study`、Play後の数字1/2/3で比較できます。参照品質・Player build・性能は未判定です。[実画像・変更・確認手順](UNITY_FLEECE_REPORT.md)。
+
+**2026-10-19 更新：最新の画質試作はBedside v009。** 枕・布団の縫い目・編み糸の断面を改修し、床／壁の光漏れ対策とAPV保存の安定化を追加しました。実Metalの固定比較7枚、30秒Play動画、再読み込み後のアセット検査を完了。画質承認・Player build・性能は未完了です。[実画像・検証・Mac手順](UNITY_BEDDING_REPORT.md)。
+
+**2026-10-18 更新：前回の画質試作はBedside v003。** ベッド脇にGPUベイク・APV・Cotton/Wool布素材を導入し、実Metalの固定比較7枚と30秒Play動画を取得しました。旧Twilight v010は保護した入力として保持。画質承認・Player build・性能は未完了です。 [実画像・動画・検証と手順](UNITY_BEDSIDE_REPORT.md)。
+
+**2026-10-18 更新：前回の試作はTwilight v010。** 編みかご・立体の編み物・ラグ模様・木材素材・窓外の形状・発光と補光を更新しました。実Unity/Metalの1080p固定8枚と30秒Play動画を取得し、実アセット・足裏・衝突・Animatorを検証。画質承認・Player build・性能は未完了です。 [変更・実画像・動画・再現手順](UNITY_ASSET_QUALITY_REPORT.md)、[追加ソフトとTripo制作方針](AI_ASSET_WORKFLOW_JA.md)。以下は過去の記録です。
 
 2026-10-12：現在はUnity HDRPへ移行しています。下記のUE APIは旧設計です。UnityでのM0/M1実装・実測範囲は[報告](UNITY_M1_REPORT.md)、操作・生成・ビルドの入口は[手順](UNITY_START.md)を参照してください。M2以降の画質優先順と受け入れ基準は維持します。
 

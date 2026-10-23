@@ -1,0 +1,527 @@
+{
+  "scope": "Check existing local bear shape/light evidence; not an artistic or performance approval.",
+  "collected_at_utc": "2026-10-19T02:52:43.563584+00:00",
+  "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+  "receipts_sha256": {
+    "Twilight_v010": "452cf536a242137bc4c2dd2bdcaae8cfe04d4818b904cc56340f47c9c78e6673",
+    "Fleece_v005": "68e0ebeeab29e82aad02404b1fa645f2dd1f8a08136ebc7574312f2449e90965",
+    "Bedside_v009": "5b19ca28b35179ce3d8b778ebdfb62252a04fbf48b66b1b5a553307c4050e110",
+    "BearFit_v002": "6a476132b0c11048cb8dc534945a1253de5b149967d9e3b665f3fb17950f307d"
+  },
+  "source_art": {
+    "recipe": "bear-fit-v001-0af0c7f62c60336b369c10912f0075715ad9e6770386f8b106611ce4ab7209c4003af187d7d4bd90334d216b1413929c925532ca81fb37ab90dd3c82215357e99659f41ffd34007d22ef06abd9a7ecb5235d86057f0cadf0eca06cfffd795949",
+    "files": {
+      "Sorajiro_Bear_Fit.blend": "cd97972597874b8dccd9df95edc4d460b37a5f8607cff402748b1012dc5a1dee",
+      "Sorajiro_Bear_Fit.fbx": "6d43e42bef2daf0d6820754f05b815bd0945e7d307c5ea7ccdccfaca4cd971bb"
+    },
+    "observations": {
+      "base_receipt_sha256": "9659f41ffd34007d22ef06abd9a7ecb5235d86057f0cadf0eca06cfffd795949",
+      "blender": "5.2.0 LTS",
+      "units": "metres, Blender Z-up/-Y face, FBX -Z forward/Y-up",
+      "state": "generated_editable_shape_trial_not_approved",
+      "body_width_before_m": 0.2512083649635315,
+      "body_width_after_m": 0.281345546620002,
+      "belly_depth_before_m": 0.1258709952235222,
+      "belly_depth_after_m": 0.15356037814373213,
+      "face_max_change_m": 3.469446951953614e-18,
+      "foot_centers_before_m": {
+        "foot_L": [
+          -0.041999999433755875,
+          -0.009999999776482582,
+          0.02500000037252903
+        ],
+        "foot_R": [
+          0.041999999433755875,
+          -0.009999999776482582,
+          0.02500000037252903
+        ]
+      },
+      "foot_centers_after_m": {
+        "foot_L": [
+          -0.05000000074505806,
+          -0.009999999776482582,
+          0.02500000037252903
+        ],
+        "foot_R": [
+          0.05000000074505806,
+          -0.009999999776482582,
+          0.02500000037252903
+        ]
+      }
+    }
+  },
+  "images": {
+    "F01_Portrait_Baseline_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F01_Portrait_Baseline_Fleece2.png",
+      "sha256": "daa898d273f40b217271bf1c7af02ab6b4ee30ce8c335820e1fd3118f8d73357",
+      "metadata": {
+        "utc": "2026-10-19T02:43:25.6411040Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Baseline_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Baseline_Bear_Fleece2",
+        "modelAsset": "Assets/Sorajiro/Generated/Fleece_v005/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.0,
+          "y": 0.3100000023841858,
+          "z": -0.6000000238418579
+        },
+        "cameraRotation": {
+          "x": 2.290609359741211,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 36.0,
+        "fixedExposure": 7.0,
+        "dynamicResolution": false
+      }
+    },
+    "F05_FrontFullBody_Fuller_Relit_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F05_FrontFullBody_Fuller_Relit_Fleece2.png",
+      "sha256": "2dd1d7d75db3d44c8f012d31b21a20c41a946aa028a754c6e1b0056a6c685989",
+      "metadata": {
+        "utc": "2026-10-19T02:43:19.9494840Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Fuller_Relit_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Current_Bear_FullerBelly_WiderStance",
+        "modelAsset": "Assets/Sorajiro/Generated/BearFit_v002/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 2,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.0,
+          "y": 0.20999999344348907,
+          "z": -0.6700000166893005
+        },
+        "cameraRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 40.0,
+        "fixedExposure": 6.300000190734863,
+        "dynamicResolution": false
+      }
+    },
+    "F02_FullBody_Baseline_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F02_FullBody_Baseline_Fleece2.png",
+      "sha256": "52a157feb1e8f7816b20181846e5c3f6d862e85a5bffd73a9102eb6c885ff4e4",
+      "metadata": {
+        "utc": "2026-10-19T02:43:59.2058310Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Baseline_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Baseline_Bear_Fleece2",
+        "modelAsset": "Assets/Sorajiro/Generated/Fleece_v005/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.2800000011920929,
+          "y": 0.2800000011920929,
+          "z": -0.6800000071525574
+        },
+        "cameraRotation": {
+          "x": 5.437457084655762,
+          "y": 337.619873046875,
+          "z": -1.0720409449049839e-07
+        },
+        "fov": 38.0,
+        "fixedExposure": 7.0,
+        "dynamicResolution": false
+      }
+    },
+    "F02_FullBody_Relit_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F02_FullBody_Relit_Fleece2.png",
+      "sha256": "306c1f1ce007b7717bb86a61b647b5fa927c789a197cca47d566f5323b580ca9",
+      "metadata": {
+        "utc": "2026-10-19T02:44:04.5276030Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Relit_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Baseline_Bear_Fleece2",
+        "modelAsset": "Assets/Sorajiro/Generated/Fleece_v005/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 1,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.2800000011920929,
+          "y": 0.2800000011920929,
+          "z": -0.6800000071525574
+        },
+        "cameraRotation": {
+          "x": 5.437457084655762,
+          "y": 337.619873046875,
+          "z": -1.0720409449049839e-07
+        },
+        "fov": 38.0,
+        "fixedExposure": 6.300000190734863,
+        "dynamicResolution": false
+      }
+    },
+    "F03_Surface_Baseline_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F03_Surface_Baseline_Fleece2.png",
+      "sha256": "a1b2eb53e44550385699810782cb5eb18cf9ed5659d9c61a4ee7a916dba2cb16",
+      "metadata": {
+        "utc": "2026-10-19T02:43:42.4888460Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Baseline_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Baseline_Bear_Fleece2",
+        "modelAsset": "Assets/Sorajiro/Generated/Fleece_v005/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.03500000014901161,
+          "y": 0.3100000023841858,
+          "z": -0.23000000417232513
+        },
+        "cameraRotation": {
+          "x": 2.4842796325683594,
+          "y": 356.26861572265625,
+          "z": -6.6763812256454e-09
+        },
+        "fov": 30.0,
+        "fixedExposure": 7.0,
+        "dynamicResolution": false
+      }
+    },
+    "F05_FrontFullBody_Relit_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F05_FrontFullBody_Relit_Fleece2.png",
+      "sha256": "d7c5beff5c108740dec875f9eb4c8627177d9cfc442000449de15d1e808d801b",
+      "metadata": {
+        "utc": "2026-10-19T02:43:14.5867070Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Relit_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Baseline_Bear_Fleece2",
+        "modelAsset": "Assets/Sorajiro/Generated/Fleece_v005/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 1,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.0,
+          "y": 0.20999999344348907,
+          "z": -0.6700000166893005
+        },
+        "cameraRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 40.0,
+        "fixedExposure": 6.300000190734863,
+        "dynamicResolution": false
+      }
+    },
+    "F01_Portrait_Fuller_Relit_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F01_Portrait_Fuller_Relit_Fleece2.png",
+      "sha256": "ce4b222beaa4b7f9bc078e71c75d2bb12db99f0707631f26dd9a1f681dd72fee",
+      "metadata": {
+        "utc": "2026-10-19T02:43:36.4840710Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Fuller_Relit_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Current_Bear_FullerBelly_WiderStance",
+        "modelAsset": "Assets/Sorajiro/Generated/BearFit_v002/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 2,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.0,
+          "y": 0.3100000023841858,
+          "z": -0.6000000238418579
+        },
+        "cameraRotation": {
+          "x": 2.290609359741211,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 36.0,
+        "fixedExposure": 6.300000190734863,
+        "dynamicResolution": false
+      }
+    },
+    "F02_FullBody_Fuller_Relit_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F02_FullBody_Fuller_Relit_Fleece2.png",
+      "sha256": "698953c0f03497013568898f5e8352ae182d77171d88a6d20e433005af3b0f5c",
+      "metadata": {
+        "utc": "2026-10-19T02:44:10.0433380Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Fuller_Relit_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Current_Bear_FullerBelly_WiderStance",
+        "modelAsset": "Assets/Sorajiro/Generated/BearFit_v002/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 2,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.2800000011920929,
+          "y": 0.2800000011920929,
+          "z": -0.6800000071525574
+        },
+        "cameraRotation": {
+          "x": 5.437457084655762,
+          "y": 337.619873046875,
+          "z": -1.0720409449049839e-07
+        },
+        "fov": 38.0,
+        "fixedExposure": 6.300000190734863,
+        "dynamicResolution": false
+      }
+    },
+    "F05_FrontFullBody_Baseline_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F05_FrontFullBody_Baseline_Fleece2.png",
+      "sha256": "3868ed100f2eb9a7fd24ce6b702f234621377b1759fda7278e79a3ab1f9f7091",
+      "metadata": {
+        "utc": "2026-10-19T02:43:09.3918290Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Baseline_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Baseline_Bear_Fleece2",
+        "modelAsset": "Assets/Sorajiro/Generated/Fleece_v005/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.0,
+          "y": 0.20999999344348907,
+          "z": -0.6700000166893005
+        },
+        "cameraRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 40.0,
+        "fixedExposure": 7.0,
+        "dynamicResolution": false
+      }
+    },
+    "F01_Portrait_Relit_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F01_Portrait_Relit_Fleece2.png",
+      "sha256": "c719452ff1ffbf870bd86bae51cdb7d565480ecb24fb96e17f13074f1124d8da",
+      "metadata": {
+        "utc": "2026-10-19T02:43:30.7359460Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Relit_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Baseline_Bear_Fleece2",
+        "modelAsset": "Assets/Sorajiro/Generated/Fleece_v005/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 1,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.0,
+          "y": 0.3100000023841858,
+          "z": -0.6000000238418579
+        },
+        "cameraRotation": {
+          "x": 2.290609359741211,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 36.0,
+        "fixedExposure": 6.300000190734863,
+        "dynamicResolution": false
+      }
+    },
+    "F03_Surface_Relit_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F03_Surface_Relit_Fleece2.png",
+      "sha256": "bcef12179c3e8ece134c7e40ec9f2dc7e79b5fc5635ebd834abac87cb85e66ac",
+      "metadata": {
+        "utc": "2026-10-19T02:43:48.0679360Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Relit_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Baseline_Bear_Fleece2",
+        "modelAsset": "Assets/Sorajiro/Generated/Fleece_v005/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 1,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.03500000014901161,
+          "y": 0.3100000023841858,
+          "z": -0.23000000417232513
+        },
+        "cameraRotation": {
+          "x": 2.4842796325683594,
+          "y": 356.26861572265625,
+          "z": -6.6763812256454e-09
+        },
+        "fov": 30.0,
+        "fixedExposure": 6.300000190734863,
+        "dynamicResolution": false
+      }
+    },
+    "F03_Surface_Fuller_Relit_Fleece2": {
+      "path": "Artifacts/Visual/bear-fit/20261019T024303675/F03_Surface_Fuller_Relit_Fleece2.png",
+      "sha256": "575e119c30c350846db8164476ab9eca2ac9f79c78f86047d68ad40e3d9e6c82",
+      "metadata": {
+        "utc": "2026-10-19T02:43:53.8258080Z",
+        "scene": "Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity",
+        "variant": "Fuller_Relit_Fleece2",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Current_Bear_FullerBelly_WiderStance",
+        "modelAsset": "Assets/Sorajiro/Generated/BearFit_v002/Bear.fbx",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "mode": 2,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "retainedFleeceVariant": 2,
+        "cameraPosition": {
+          "x": 0.03500000014901161,
+          "y": 0.3100000023841858,
+          "z": -0.23000000417232513
+        },
+        "cameraRotation": {
+          "x": 2.4842796325683594,
+          "y": 356.26861572265625,
+          "z": -6.6763812256454e-09
+        },
+        "fov": 30.0,
+        "fixedExposure": 6.300000190734863,
+        "dynamicResolution": false
+      }
+    }
+  },
+  "image_differences_8bit_luma": {
+    "F05_FrontFullBody:Baseline_Fleece2->Relit_Fleece2": 17.021,
+    "F05_FrontFullBody:Relit_Fleece2->Fuller_Relit_Fleece2": 2.03264,
+    "F01_Portrait:Baseline_Fleece2->Relit_Fleece2": 16.7103,
+    "F01_Portrait:Relit_Fleece2->Fuller_Relit_Fleece2": 2.26677,
+    "F03_Surface:Baseline_Fleece2->Relit_Fleece2": 15.8954,
+    "F03_Surface:Relit_Fleece2->Fuller_Relit_Fleece2": 1.02814,
+    "F02_FullBody:Baseline_Fleece2->Relit_Fleece2": 18.1042,
+    "F02_FullBody:Relit_Fleece2->Fuller_Relit_Fleece2": 1.8683
+  },
+  "comparison_scope": "All modes retain prior material variant 2. Baseline->relit changes light geometry, powers, ambient and exposure. Relit->fuller changes sculpt, rig rest pose and regenerated clips. Image difference is not a quality score.",
+  "tests": {
+    "bear-fit-checks.txt": "PASS: actual FBX and Generic rig loaded; stance +16mm; finite skin positions; supported materials; all source/output receipts intact.\nScene=Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity\n",
+    "bear-fit-animation-clips.txt": "PASS: Real FBX + editable native AnimationClip sampling in isolated Unity preview scene.\nIdle: duration=2s; 56 bound position/quaternion curves; loop=True\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.001936m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.001954m\nWalk: duration=0.52s; 56 bound position/quaternion curves; loop=True\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.020771m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.020776m\nRun: duration=0.4s; 56 bound position/quaternion curves; loop=True\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.035958m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.036041m\nJump: duration=0.2s; 56 bound position/quaternion curves; loop=False\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.016735m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.017189m\nFall: duration=0.35s; 56 bound position/quaternion curves; loop=True\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.011498m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.011594m\nLand: duration=0.16s; 56 bound position/quaternion curves; loop=False\n  Bear_SkinnedBody_ArtTrial: max world-space deformation=0.016574m\n  FullBody_ShortPile_TRIAL: max world-space deformation=0.016700m\nThis is sampled deformation, not foot-contact, motion quality or a Player build approval.\n",
+    "bear-fit-sole-test.txt": "PASS: imported weighted sole + real clips + controller-distance compensation.\nWalk/L: 877 sole vertices; support centroid world drift=0.000003m over 13 real clip samples.\nRun/L: 877 sole vertices; support centroid world drift=0.000006m over 13 real clip samples.\nWalk/R: 851 sole vertices; support centroid world drift=0.000003m over 13 real clip samples.\nRun/R: 851 sole vertices; support centroid world drift=0.000006m over 13 real clip samples.\nConstant-speed straight support only; turns, transitions, obstacles and live foot contact still need visual review.\n",
+    "bear-fit-motor-smoke.txt": "Scene=Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity\nPASS: actual CharacterController with production Step; grounding, walk/run/diagonal, 30/60 movement steps, jump/landing, air-jump refusal, boundary, return.\nWalk distance=0.09333m; jump peak=0.12598m.\nSynchronous physics smoke, not a keyboard/device, frame-loop, long stability or performance test.\n",
+    "bear-fit-animation-runtime.txt": "PASS: production motor + animation driver + actual Generic Animator.Update; observed Locomotion, Jump, Fall, Land and grounded recovery; root motion off.\nSynchronous integration test, not keyboard, frame pacing or motion-quality approval.\n",
+    "bear-fit-variant-runtime.txt": "PASS: production Apply switches models/lights/motor visual/Animator correctly in all modes. New rest-pose clips active.\nScene=Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity\n",
+    "bear-fit-rest-contact.txt": "PASS: actual settled CharacterController + sampled Idle skin. Bare cloth/sole minimum above floor=0.002789m. This geometry measurement does not approve contact-shadow quality or live foot sliding.\nScene=Assets/Sorajiro/Generated/BearFit_v002/L_LookDev.unity\n"
+  },
+  "motion": {
+    "path": "Artifacts/Visual/motion/20261019T024836754",
+    "frames": 430,
+    "last_timestamp_s": 29.97665,
+    "sha256": "dc0e7b08c9062e49c063ab2a71ee061710e934a6ec8386cd229361a84d947450"
+  },
+  "source_checks": {
+    "observed_at_utc": "2026-10-19T02:47:48.755088+00:00",
+    "checks": [
+      {
+        "name": "Sorajiro.Runtime",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+      },
+      {
+        "name": "Sorajiro.Editor",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+      },
+      {
+        "name": "MotionPolicyTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+      },
+      {
+        "name": "MotionPolicy_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+      },
+      {
+        "name": "PlushGaitTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGaitTest.log"
+      },
+      {
+        "name": "PlushGait_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+      }
+    ],
+    "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+    "unity_import": "not_run",
+    "player_build": "not_run",
+    "render": "not_run",
+    "performance": "not_run"
+  },
+  "not_verified": [
+    "owner visual approval",
+    "Player build",
+    "performance/GPU time/memory",
+    "Windows",
+    "full temporal stability acceptance",
+    "real keyboard/focus acceptance",
+    "room integration",
+    "LOD/quality workloads"
+  ]
+}

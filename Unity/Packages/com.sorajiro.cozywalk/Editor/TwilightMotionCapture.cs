@@ -11,7 +11,7 @@ namespace Sorajiro.Editor
         [MenuItem("Sorajiro/Twilight/8. Record 30s scripted motion (Play)")]
         public static void Begin()
         {
-            if(!EditorApplication.isPlaying || SceneManager.GetActiveScene().path!=TwilightLookDevBuilder.ScenePath) throw new Exception("Enter Play in Twilight first.");
+            if(!EditorApplication.isPlaying || (SceneManager.GetActiveScene().path!=TwilightLookDevBuilder.ScenePath && SceneManager.GetActiveScene().path!=BedsideCornerBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingRefinementBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingContactBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingDrapeBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingSurfaceBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingRoundBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingStableBuilder.ScenePath && SceneManager.GetActiveScene().path!=FleeceStudyBuilder.ScenePath && SceneManager.GetActiveScene().path!=BearFitBuilder.ScenePath && SceneManager.GetActiveScene().path!=BedsideBearBuilder.ScenePath)) throw new Exception("Enter Play in the generated Twilight or Bedside scene first.");
             if(UnityEngine.Object.FindAnyObjectByType<MotionCaptureProbe>()) throw new Exception("Capture already running.");
             var motor=UnityEngine.Object.FindAnyObjectByType<SorajiroMotor>();
             if(motor.Paused || !motor.Focused) throw new Exception("Focused unpaused player required.");

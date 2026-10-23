@@ -30,7 +30,8 @@ namespace Sorajiro.Editor
             string json = JsonUtility.ToJson(new RuntimeEvidence {
                 utc = DateTime.UtcNow.ToString("O"), unity = Application.unityVersion,
                 scenePath=motor.gameObject.scene.path,
-                assetState=motor.gameObject.scene.path==TwilightLookDevBuilder.ScenePath?
+                assetState=(motor.gameObject.scene.path==BedsideCornerBuilder.ScenePath || (motor.gameObject.scene.path==BeddingRefinementBuilder.ScenePath || motor.gameObject.scene.path==BeddingContactBuilder.ScenePath || motor.gameObject.scene.path==BeddingDrapeBuilder.ScenePath || motor.gameObject.scene.path==BeddingSurfaceBuilder.ScenePath || motor.gameObject.scene.path==BeddingRoundBuilder.ScenePath || motor.gameObject.scene.path==BeddingStableBuilder.ScenePath))?
+                    "master_bear_rig_and_short_pile_baked_room_APV_CottonWool_trial_unapproved":motor.gameObject.scene.path==TwilightLookDevBuilder.ScenePath?
                     "master_bear_full_body_pile_rig_animation_twilight_room_trial":motor.gameObject.scene.path==M2LookDevBuilder.ScenePath?
                     "generated_model_uv_generic_rig_back_head_pile_patch_no_animation":"generated_placeholder_no_fur_no_rig_no_animation",
                 gpu = SystemInfo.graphicsDeviceName, graphicsApi = SystemInfo.graphicsDeviceType.ToString(),

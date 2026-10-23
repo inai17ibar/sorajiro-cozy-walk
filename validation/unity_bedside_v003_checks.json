@@ -1,0 +1,306 @@
+{
+  "scope": "Verify existing local baked-lighting evidence, not execute/approve rendering.",
+  "collected_at_utc": "2026-10-18T12:40:01.255289+00:00",
+  "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+  "generated_receipt_sha256": "2aed1d3e8e81d81594c67ac635da0f418540c37f72fa0850e1f271c3a05878fd",
+  "unchanged_v010_receipt_sha256": "452cf536a242137bc4c2dd2bdcaae8cfe04d4818b904cc56340f47c9c78e6673",
+  "bake": {
+    "state": "completed",
+    "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+    "startedUtc": "2026-10-18T12:31:03.7808070Z",
+    "completedUtc": "2026-10-18T12:31:17.2990240Z",
+    "gpu": "Apple M3 Max",
+    "error": "",
+    "lightmaps": 2,
+    "probes": 0,
+    "apvBaked": true,
+    "apvMinimumSpacing": 0.25,
+    "elapsedSeconds": 13.517857374972664
+  },
+  "images": [
+    {
+      "path": "Artifacts/Visual/bedside/20261018T123249573/S01_Portrait_Cotton_GI_OFF.png",
+      "sha256": "2db238c4bbc4f774e747fe7db24b8dfd08c1be82f6d772afa80385eb0559263b",
+      "metadata": {
+        "utc": "2026-10-18T12:33:11.5038020Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "shot": "S01_Portrait_Cotton_GI_OFF",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "verticalFov": 38.0,
+        "indirectMultiplier": 0.0,
+        "fixedEV": 6.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 2,
+        "dynamicResolution": false,
+        "apvBaked": true,
+        "scope": "Actual Editor HDRP StandardRequest; TAA; fixed exposure recorded; no dynamic scale / DLSS / FSR; not a Player/performance/owner-approval claim"
+      }
+    },
+    {
+      "path": "Artifacts/Visual/bedside/20261018T123249573/S01_Portrait_Cotton_GI_ON.png",
+      "sha256": "0ddd4289cfda1b78228d75ac74341067e3005442f812697639b71bdbf59c732c",
+      "metadata": {
+        "utc": "2026-10-18T12:32:59.0932110Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "shot": "S01_Portrait_Cotton_GI_ON",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "verticalFov": 38.0,
+        "indirectMultiplier": 1.600000023841858,
+        "fixedEV": 6.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 2,
+        "dynamicResolution": false,
+        "apvBaked": true,
+        "scope": "Actual Editor HDRP StandardRequest; TAA; fixed exposure recorded; no dynamic scale / DLSS / FSR; not a Player/performance/owner-approval claim"
+      }
+    },
+    {
+      "path": "Artifacts/Visual/bedside/20261018T123249573/S02_Gameplay_Cotton_GI_ON.png",
+      "sha256": "8cdb1735e504201b548bce5403fdcd40879815622536004d1afd5b9465caffa0",
+      "metadata": {
+        "utc": "2026-10-18T12:32:56.0200070Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "shot": "S02_Gameplay_Cotton_GI_ON",
+        "position": {
+          "x": 0.6800000071525574,
+          "y": 0.2800000011920929,
+          "z": -1.75
+        },
+        "rotation": {
+          "x": 356.27294921875,
+          "y": 342.8240966796875,
+          "z": -5.3473947048132686e-08
+        },
+        "verticalFov": 48.0,
+        "indirectMultiplier": 1.600000023841858,
+        "fixedEV": 6.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 2,
+        "dynamicResolution": false,
+        "apvBaked": true,
+        "scope": "Actual Editor HDRP StandardRequest; TAA; fixed exposure recorded; no dynamic scale / DLSS / FSR; not a Player/performance/owner-approval claim"
+      }
+    },
+    {
+      "path": "Artifacts/Visual/bedside/20261018T123249573/S03_ThreeQuarter_Cotton_GI_ON.png",
+      "sha256": "12d7963d11736c6b78c58d60d706d80d60c8cdc0f149d653bdd78e4bbd2da9c8",
+      "metadata": {
+        "utc": "2026-10-18T12:33:02.3719980Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "shot": "S03_ThreeQuarter_Cotton_GI_ON",
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.2800000011920929,
+          "z": -1.1200000047683716
+        },
+        "rotation": {
+          "x": 5.691587924957275,
+          "y": 331.9754943847656,
+          "z": -1.0725041477144259e-07
+        },
+        "verticalFov": 38.0,
+        "indirectMultiplier": 1.600000023841858,
+        "fixedEV": 6.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 2,
+        "dynamicResolution": false,
+        "apvBaked": true,
+        "scope": "Actual Editor HDRP StandardRequest; TAA; fixed exposure recorded; no dynamic scale / DLSS / FSR; not a Player/performance/owner-approval claim"
+      }
+    },
+    {
+      "path": "Artifacts/Visual/bedside/20261018T123249573/S05_Bedding_Cotton_GI_OFF.png",
+      "sha256": "b6a7d97259bdf9c849ed633a07ce0b699e5429db7fe6f69b34153d7fb4c0ce3b",
+      "metadata": {
+        "utc": "2026-10-18T12:33:05.5095940Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "shot": "S05_Bedding_Cotton_GI_OFF",
+        "position": {
+          "x": -0.25,
+          "y": 1.0499999523162842,
+          "z": -0.6499999761581421
+        },
+        "rotation": {
+          "x": 16.67683219909668,
+          "y": 317.2906188964844,
+          "z": 0.0
+        },
+        "verticalFov": 43.0,
+        "indirectMultiplier": 0.0,
+        "fixedEV": 6.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 2,
+        "dynamicResolution": false,
+        "apvBaked": true,
+        "scope": "Actual Editor HDRP StandardRequest; TAA; fixed exposure recorded; no dynamic scale / DLSS / FSR; not a Player/performance/owner-approval claim"
+      }
+    },
+    {
+      "path": "Artifacts/Visual/bedside/20261018T123249573/S05_Bedding_Cotton_GI_ON.png",
+      "sha256": "75c7b807bfc10f8bcc8b4402f6ce9314a6c48d7a36ac355742613139c8fed63d",
+      "metadata": {
+        "utc": "2026-10-18T12:32:52.9355140Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "shot": "S05_Bedding_Cotton_GI_ON",
+        "position": {
+          "x": -0.25,
+          "y": 1.0499999523162842,
+          "z": -0.6499999761581421
+        },
+        "rotation": {
+          "x": 16.67683219909668,
+          "y": 317.2906188964844,
+          "z": 0.0
+        },
+        "verticalFov": 43.0,
+        "indirectMultiplier": 1.600000023841858,
+        "fixedEV": 6.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 2,
+        "dynamicResolution": false,
+        "apvBaked": true,
+        "scope": "Actual Editor HDRP StandardRequest; TAA; fixed exposure recorded; no dynamic scale / DLSS / FSR; not a Player/performance/owner-approval claim"
+      }
+    },
+    {
+      "path": "Artifacts/Visual/bedside/20261018T123249573/S05_Bedding_Lit_GI_ON.png",
+      "sha256": "99369ac3352de859bba40996bb84dd8fab8bbe619ffeb448ed7828ddfe3e6a91",
+      "metadata": {
+        "utc": "2026-10-18T12:33:08.4707770Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity",
+        "unity": "6000.6.5f1",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "shot": "S05_Bedding_Lit_GI_ON",
+        "position": {
+          "x": -0.25,
+          "y": 1.0499999523162842,
+          "z": -0.6499999761581421
+        },
+        "rotation": {
+          "x": 16.67683219909668,
+          "y": 317.2906188964844,
+          "z": 0.0
+        },
+        "verticalFov": 43.0,
+        "indirectMultiplier": 1.600000023841858,
+        "fixedEV": 6.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 2,
+        "dynamicResolution": false,
+        "apvBaked": true,
+        "scope": "Actual Editor HDRP StandardRequest; TAA; fixed exposure recorded; no dynamic scale / DLSS / FSR; not a Player/performance/owner-approval claim"
+      }
+    }
+  ],
+  "image_difference_analysis": {
+    "S05_Bedding_GI_switch_YAVG_8bit": 54.1527,
+    "S01_Portrait_GI_switch_YAVG_8bit": 33.6687,
+    "S05_Fabric_switch_YAVG_8bit": 5.68743
+  },
+  "difference_scope": "Measured 8-bit luma signal difference from actual captures; not an artistic quality score or FPS metric.",
+  "tests": {
+    "bedside-checks.txt": "PASS: persisted GPU lightmaps=2, actual APV HasBakedData=true; minimum probe spacing=0.25m; APV runtime data loaded=True; 5 installed HDRP Cotton/Wool materials with original linear thread/fuzz maps.\nScene=Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity\nActual baked data and bindings; not visual approval or performance.\n",
+    "bedside-animation-runtime.txt": "PASS: production motor + animation driver + actual Generic Animator.Update; observed Locomotion, Jump, Fall, Land and grounded recovery; root motion off.\nSynchronous integration test, not keyboard, frame pacing or motion-quality approval.\n",
+    "bedside-motor-smoke.txt": "Scene=Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity\nPASS: actual CharacterController with production Step; grounding, walk/run/diagonal, 30/60 movement steps, jump/landing, air-jump refusal, boundary, return.\nWalk distance=0.09333m; jump peak=0.12635m.\nSynchronous physics smoke, not a keyboard/device, frame-loop, long stability or performance test.\n",
+    "bedside-scripted-focus.txt": "Scripted integration test supplied focused=true, restoring previous focus afterward. Actual production motor, collision and Animator; not a keyboard/focus-device acceptance test.\nScene=Assets/Sorajiro/Generated/Bedside_v003/L_LookDev.unity\n"
+  },
+  "motion": {
+    "folder": "Artifacts/Visual/motion/20261018T123743855",
+    "frames": 433,
+    "last_timestamp_s": 29.99532,
+    "sha256": "b40d029259b4b088ddaacae9438fcbbcf59ce3c1e53141412e62d4b009f88069"
+  },
+  "source_checks": {
+    "observed_at_utc": "2026-10-18T12:35:50.372481+00:00",
+    "checks": [
+      {
+        "name": "Sorajiro.Runtime",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+      },
+      {
+        "name": "Sorajiro.Editor",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+      },
+      {
+        "name": "MotionPolicyTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+      },
+      {
+        "name": "MotionPolicy_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+      },
+      {
+        "name": "PlushGaitTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGaitTest.log"
+      },
+      {
+        "name": "PlushGait_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+      }
+    ],
+    "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+    "unity_import": "not_run",
+    "player_build": "not_run",
+    "render": "not_run",
+    "performance": "not_run"
+  },
+  "not_verified": [
+    "owner visual approval",
+    "Player build",
+    "Windows",
+    "FPS/memory pressure",
+    "keyboard and real focus acceptance",
+    "runtime cloth simulation",
+    "LOD and workload quality controls"
+  ]
+}

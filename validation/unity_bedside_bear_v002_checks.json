@@ -1,0 +1,295 @@
+{
+  "scope": "Validate existing preferred-bear room evidence; not a visual or performance approval.",
+  "collected_at_utc": "2026-10-23T23:04:27.273397+00:00",
+  "scene": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+  "chosen_source": "Assets/Sorajiro/Generated/BearFit_v001/L_LookDev.unity",
+  "chosen_comparison": 3,
+  "receipts_sha256": {
+    "BearFit_v001": "a3388f10f1a5f658066d41ff1e73e300f3691d646f906b1fae33f86f5bd73429",
+    "Fleece_v005": "68e0ebeeab29e82aad02404b1fa645f2dd1f8a08136ebc7574312f2449e90965",
+    "Bedside_v009": "5b19ca28b35179ce3d8b778ebdfb62252a04fbf48b66b1b5a553307c4050e110",
+    "BedsideBear_v002": "f35a0b9488314531594ded18023e78966db981fb5308543829b5f6271d3374b0"
+  },
+  "bake": {
+    "state": "completed",
+    "scene": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+    "startedUtc": "2026-10-23T22:54:45.0660310Z",
+    "completedUtc": "2026-10-23T22:55:01.7683390Z",
+    "gpu": "Apple M3 Max",
+    "error": "",
+    "lightmaps": 3,
+    "apvBaked": true,
+    "elapsedSeconds": 16.699857832980342
+  },
+  "images": {
+    "S03_ThreeQuarter_Preferred": {
+      "path": "Artifacts/Visual/bedside-bear/20261023T225809652/S03_ThreeQuarter_Preferred.png",
+      "sha256": "9196f650b5ea1086237902e71e94298620b4e9b9cc7b91f0366bce6e95f2db83",
+      "metadata": {
+        "utc": "2026-10-23T22:58:16.0133890Z",
+        "scene": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "variant": "Preferred",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Preferred_BearFit_v001_3",
+        "controller": "Assets/Sorajiro/Generated/BearFit_v001/BearMotion.controller",
+        "mesh": "Assets/Sorajiro/Generated/BearFit_v001/Bear.fbx",
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.2800000011920929,
+          "z": -1.1200000047683716
+        },
+        "rotation": {
+          "x": 5.691587924957275,
+          "y": 331.9754943847656,
+          "z": -1.0725041477144259e-07
+        },
+        "fov": 38.0,
+        "fixedEV": 7.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 3,
+        "sourceComparison": 3,
+        "renderingLayer": 2,
+        "apvBaked": true,
+        "dynamicResolution": false
+      }
+    },
+    "S01_Portrait_Room_Direct": {
+      "path": "Artifacts/Visual/bedside-bear/20261023T225809652/S01_Portrait_Room_Direct.png",
+      "sha256": "ce1f6ee706490630218c0f6fced0a2d32805a131c759256664dc7615d082ac50",
+      "metadata": {
+        "utc": "2026-10-23T22:58:21.8204140Z",
+        "scene": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "variant": "Room_Direct",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Preferred_BearFit_v001_3",
+        "controller": "Assets/Sorajiro/Generated/BearFit_v001/BearMotion.controller",
+        "mesh": "Assets/Sorajiro/Generated/BearFit_v001/Bear.fbx",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 38.0,
+        "fixedEV": 7.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 3,
+        "sourceComparison": 3,
+        "renderingLayer": 1,
+        "apvBaked": true,
+        "dynamicResolution": false
+      }
+    },
+    "S05_Bedding_Preferred": {
+      "path": "Artifacts/Visual/bedside-bear/20261023T225809652/S05_Bedding_Preferred.png",
+      "sha256": "121559f085de68043a4e8df5877c472f1f09593a40f668399713bf65c2039673",
+      "metadata": {
+        "utc": "2026-10-23T22:58:18.2348670Z",
+        "scene": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "variant": "Preferred",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Preferred_BearFit_v001_3",
+        "controller": "Assets/Sorajiro/Generated/BearFit_v001/BearMotion.controller",
+        "mesh": "Assets/Sorajiro/Generated/BearFit_v001/Bear.fbx",
+        "position": {
+          "x": -0.25,
+          "y": 1.0499999523162842,
+          "z": -0.6499999761581421
+        },
+        "rotation": {
+          "x": 16.67683219909668,
+          "y": 317.2906188964844,
+          "z": 0.0
+        },
+        "fov": 43.0,
+        "fixedEV": 7.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 3,
+        "sourceComparison": 3,
+        "renderingLayer": 2,
+        "apvBaked": true,
+        "dynamicResolution": false
+      }
+    },
+    "S01_Portrait_Hero_OFF": {
+      "path": "Artifacts/Visual/bedside-bear/20261023T225809652/S01_Portrait_Hero_OFF.png",
+      "sha256": "1b10f735787b7e0e8f47d96f3876797f067e519a5e667f06bb2c9f5cb2ae9ac3",
+      "metadata": {
+        "utc": "2026-10-23T22:58:19.6262110Z",
+        "scene": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "variant": "Hero_OFF",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Preferred_BearFit_v001_3",
+        "controller": "Assets/Sorajiro/Generated/BearFit_v001/BearMotion.controller",
+        "mesh": "Assets/Sorajiro/Generated/BearFit_v001/Bear.fbx",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 38.0,
+        "fixedEV": 7.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 3,
+        "sourceComparison": 3,
+        "renderingLayer": 2,
+        "apvBaked": true,
+        "dynamicResolution": false
+      }
+    },
+    "S02_Gameplay_Preferred": {
+      "path": "Artifacts/Visual/bedside-bear/20261023T225809652/S02_Gameplay_Preferred.png",
+      "sha256": "d058bd878f59e96b4503d15a413a3fdfef6ea3f1d9080f568c003d001e9f3590",
+      "metadata": {
+        "utc": "2026-10-23T22:58:14.1682210Z",
+        "scene": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "variant": "Preferred",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Preferred_BearFit_v001_3",
+        "controller": "Assets/Sorajiro/Generated/BearFit_v001/BearMotion.controller",
+        "mesh": "Assets/Sorajiro/Generated/BearFit_v001/Bear.fbx",
+        "position": {
+          "x": 0.6800000071525574,
+          "y": 0.2800000011920929,
+          "z": -1.75
+        },
+        "rotation": {
+          "x": 356.27294921875,
+          "y": 342.8240966796875,
+          "z": -5.3473947048132686e-08
+        },
+        "fov": 48.0,
+        "fixedEV": 7.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 3,
+        "sourceComparison": 3,
+        "renderingLayer": 2,
+        "apvBaked": true,
+        "dynamicResolution": false
+      }
+    },
+    "S01_Portrait_Preferred": {
+      "path": "Artifacts/Visual/bedside-bear/20261023T225809652/S01_Portrait_Preferred.png",
+      "sha256": "0ffca4a5c3ac54c80b92f3acfba57d8cd8c6d42c12d77a9f03babf22249da7f5",
+      "metadata": {
+        "utc": "2026-10-23T22:58:12.1266480Z",
+        "scene": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "variant": "Preferred",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "model": "Preferred_BearFit_v001_3",
+        "controller": "Assets/Sorajiro/Generated/BearFit_v001/BearMotion.controller",
+        "mesh": "Assets/Sorajiro/Generated/BearFit_v001/Bear.fbx",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 38.0,
+        "fixedEV": 7.0,
+        "width": 1920,
+        "height": 1080,
+        "lightmaps": 3,
+        "sourceComparison": 3,
+        "renderingLayer": 2,
+        "apvBaked": true,
+        "dynamicResolution": false
+      }
+    }
+  },
+  "portrait_lighting_difference_8bit_luma": {
+    "Hero_OFF": 17.1412,
+    "Room_Direct": 16.9892
+  },
+  "comparison_scope": "Same selected mesh/materials/controller, pose, camera and EV7. Direct hero lights or receiving layer changes. Room ambient and post processing differ from the source studio. Differences are not a quality score.",
+  "tests": {
+    "bedside-bear-checks.txt": "PASS: exact BearFit_v001 mesh/controller/material references; hero rendering layer 2; private GPU lightmaps=3; APV baked and scene membership correct; sources unchanged.\nScene=Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity\nAPV loaded=True\n",
+    "bedside-bear-motor-smoke.txt": "Scene=Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity\nPASS: actual CharacterController with production Step; grounding, walk/run/diagonal, 30/60 movement steps, jump/landing, air-jump refusal, boundary, return.\nWalk distance=0.09333m; jump peak=0.12635m.\nSynchronous physics smoke, not a keyboard/device, frame-loop, long stability or performance test.\n",
+    "bedside-bear-animation-runtime.txt": "PASS: production motor + animation driver + actual Generic Animator.Update; observed Locomotion, Jump, Fall, Land and grounded recovery; root motion off.\nSynchronous integration test, not keyboard, frame pacing or motion-quality approval.\n"
+  },
+  "motion": {
+    "path": "Artifacts/Visual/motion/20261023T230236873",
+    "frames": 433,
+    "last_timestamp_s": 29.95333,
+    "sha256": "83c1524e7ed88589a062729438caef532d98fedbf9a2dda15d45de4b494c2652"
+  },
+  "source_checks": {
+    "observed_at_utc": "2026-10-23T22:51:39.948875+00:00",
+    "checks": [
+      {
+        "name": "Sorajiro.Runtime",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+      },
+      {
+        "name": "Sorajiro.Editor",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+      },
+      {
+        "name": "MotionPolicyTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+      },
+      {
+        "name": "MotionPolicy_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+      },
+      {
+        "name": "PlushGaitTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGaitTest.log"
+      },
+      {
+        "name": "PlushGait_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+      }
+    ],
+    "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+    "unity_import": "not_run",
+    "player_build": "not_run",
+    "render": "not_run",
+    "performance": "not_run"
+  },
+  "not_verified": [
+    "owner approval of room appearance",
+    "Player build",
+    "FPS/GPU time/memory pressure",
+    "Windows",
+    "full temporal stability acceptance",
+    "real keyboard/focus acceptance",
+    "LOD/quality workload controls"
+  ]
+}

@@ -12,14 +12,15 @@ namespace Sorajiro.Editor
     public static class BearAnimationVerification
     {
         [MenuItem("Sorajiro/Twilight/6. Test editable animation clips (Edit)")]
-        public static void ClipTests()
+        public static void ClipTests(){ClipTestsFor(TwilightLookDevBuilder.Output);}
+        public static void ClipTestsFor(string output)
         {
             TwilightLookDevBuilder.Preflight();
             var scene=EditorSceneManager.NewPreviewScene();
             string result="Real FBX + editable native AnimationClip sampling in isolated Unity preview scene.\n";
             try
             {
-                var model=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(TwilightLookDevBuilder.Output+"/Bear.fbx"),scene);
+                var model=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(output+"/Bear.fbx"),scene);
                 var animator=model.GetComponent<Animator>();
                 if(!animator || !animator.avatar || !animator.avatar.isValid || animator.avatar.isHuman) throw new Exception("Expected valid Generic avatar.");
                 var nodes=model.GetComponentsInChildren<Transform>(true);
@@ -31,7 +32,7 @@ namespace Sorajiro.Editor
                     foreach(string name in new[]{"Idle","Walk","Run","Jump","Fall","Land"})
                     {
                         for(int i=0;i<nodes.Length;i++) {nodes[i].localPosition=positions[i]; nodes[i].localRotation=rotations[i]; nodes[i].localScale=scales[i];}
-                        var clip=AssetDatabase.LoadAssetAtPath<AnimationClip>(TwilightLookDevBuilder.Output+"/"+name+".anim");
+                        var clip=AssetDatabase.LoadAssetAtPath<AnimationClip>(output+"/"+name+".anim");
                         var curves=AnimationUtility.GetCurveBindings(clip);
                         if(clip.legacy || curves.Length!=56 || curves.Any(b=>!model.transform.Find(b.path))) throw new Exception("Unbound clip curves: "+name);
                         Vector3 origin=model.transform.position; clip.SampleAnimation(model,clip.length*.35f);
@@ -56,7 +57,7 @@ namespace Sorajiro.Editor
         [MenuItem("Sorajiro/Twilight/7. Test live Animator transitions (Play, resets player)")]
         public static void RuntimeTests()
         {
-            if(!EditorApplication.isPlaying || SceneManager.GetActiveScene().path!=TwilightLookDevBuilder.ScenePath) throw new Exception("Enter Play in Twilight first.");
+            if(!EditorApplication.isPlaying || (SceneManager.GetActiveScene().path!=TwilightLookDevBuilder.ScenePath && SceneManager.GetActiveScene().path!=BedsideCornerBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingRefinementBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingContactBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingDrapeBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingSurfaceBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingRoundBuilder.ScenePath && SceneManager.GetActiveScene().path!=BeddingStableBuilder.ScenePath && SceneManager.GetActiveScene().path!=FleeceStudyBuilder.ScenePath && SceneManager.GetActiveScene().path!=BearFitBuilder.ScenePath && SceneManager.GetActiveScene().path!=BedsideBearBuilder.ScenePath)) throw new Exception("Enter Play in the generated Twilight or Bedside scene first.");
             var driver=UnityEngine.Object.FindAnyObjectByType<BearAnimationDriver>(); var motor=driver.motor; var animator=driver.animator;
             if(motor.Paused || !motor.Focused) throw new Exception("Focused, unpaused player required.");
             var states=new HashSet<string>(); Quaternion rotation=motor.visualRoot.rotation;
@@ -77,15 +78,16 @@ namespace Sorajiro.Editor
         }
 
         private static void Save(string name,string result)
-        {string dir=Path.Combine(TwilightLookDevBuilder.Repository,"Artifacts/UnityEditor"); Directory.CreateDirectory(dir); File.WriteAllText(Path.Combine(dir,name),result); Debug.Log("SORAJIRO ANIMATION: "+result);}
+        {string dir=Path.Combine(TwilightLookDevBuilder.Repository,"Artifacts/UnityEditor"); Directory.CreateDirectory(dir);if(SceneManager.GetActiveScene().path==BedsideCornerBuilder.ScenePath)name=name.Replace("twilight-","bedside-");if(SceneManager.GetActiveScene().path==BeddingRefinementBuilder.ScenePath || SceneManager.GetActiveScene().path==BeddingContactBuilder.ScenePath || SceneManager.GetActiveScene().path==BeddingDrapeBuilder.ScenePath || SceneManager.GetActiveScene().path==BeddingSurfaceBuilder.ScenePath || SceneManager.GetActiveScene().path==BeddingRoundBuilder.ScenePath || SceneManager.GetActiveScene().path==BeddingStableBuilder.ScenePath)name=name.Replace("twilight-","bedding-"); if(SceneManager.GetActiveScene().path==FleeceStudyBuilder.ScenePath)name=name.Replace("twilight-","fleece-"); if(SceneManager.GetActiveScene().path==BearFitBuilder.ScenePath)name=name.Replace("twilight-","bear-fit-"); if(SceneManager.GetActiveScene().path==BedsideBearBuilder.ScenePath)name=name.Replace("twilight-","bedside-bear-"); File.WriteAllText(Path.Combine(dir,name),result); Debug.Log("SORAJIRO ANIMATION: "+result);}
 
         [MenuItem("Sorajiro/Twilight/9. Test planted sole motion (Edit)")]
-        public static void SoleTests()
+        public static void SoleTests(){SoleTestsFor(TwilightLookDevBuilder.Output);}
+        public static void SoleTestsFor(string output)
         {
             TwilightLookDevBuilder.Preflight();var scene=EditorSceneManager.NewPreviewScene();string result="";
             try
             {
-                var model=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(TwilightLookDevBuilder.Output+"/Bear.fbx"),scene);
+                var model=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(output+"/Bear.fbx"),scene);
                 var body=model.GetComponentsInChildren<SkinnedMeshRenderer>().Single(r=>r.name=="Bear_SkinnedBody_ArtTrial");
                 var restMesh=new Mesh();body.BakeMesh(restMesh);
                 var rest=restMesh.vertices.Select(p=>body.transform.TransformPoint(p)).ToArray();
@@ -101,7 +103,7 @@ namespace Sorajiro.Editor
                         if(indices.Length<10)throw new Exception("No rigid sole sample vertices: "+side);
                         foreach(string name in new[]{"Walk","Run"})
                         {
-                            var clip=AssetDatabase.LoadAssetAtPath<AnimationClip>(TwilightLookDevBuilder.Output+"/"+name+".anim");
+                            var clip=AssetDatabase.LoadAssetAtPath<AnimationClip>(output+"/"+name+".anim");
                             float speed=name=="Walk"?.28f:.52f;Vector3 first=Vector3.zero;float maximum=0;
                             for(int step=0;step<=12;step++)
                             {

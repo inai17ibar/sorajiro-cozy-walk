@@ -15,8 +15,9 @@ namespace Sorajiro.Editor
             if (!motor || motor.Paused || !motor.Focused)
                 throw new InvalidOperationException("A focused, unpaused player is required.");
             bool m2=motor.gameObject.scene.path==M2LookDevBuilder.ScenePath;
-            bool twilight=motor.gameObject.scene.path==TwilightLookDevBuilder.ScenePath;
-            if (!m2 && !twilight && motor.gameObject.scene.path != GeneratedContentGuard.ScenePath)
+            bool twilight=motor.gameObject.scene.path==TwilightLookDevBuilder.ScenePath || motor.gameObject.scene.path==FleeceStudyBuilder.ScenePath || motor.gameObject.scene.path==BearFitBuilder.ScenePath;
+            bool bedside=motor.gameObject.scene.path==BedsideBearBuilder.ScenePath || motor.gameObject.scene.path==BedsideCornerBuilder.ScenePath || (motor.gameObject.scene.path==BeddingRefinementBuilder.ScenePath || motor.gameObject.scene.path==BeddingContactBuilder.ScenePath || motor.gameObject.scene.path==BeddingDrapeBuilder.ScenePath || motor.gameObject.scene.path==BeddingSurfaceBuilder.ScenePath || motor.gameObject.scene.path==BeddingRoundBuilder.ScenePath || motor.gameObject.scene.path==BeddingStableBuilder.ScenePath);
+            if (!m2 && !twilight && !bedside && motor.gameObject.scene.path != GeneratedContentGuard.ScenePath)
                 throw new InvalidOperationException("Run only in the generated M1, M2 or Twilight test scene.");
             motor.ReturnToStart(); Vector3 expectedSpawn=motor.transform.position;
             var controller = motor.GetComponent<CharacterController>();
@@ -75,7 +76,7 @@ namespace Sorajiro.Editor
                 string package = UnityEditor.PackageManager.PackageInfo.FindForAssembly(typeof(MotorSmokeTests).Assembly).resolvedPath;
                 string folder = Path.Combine(Directory.GetParent(package).Parent.Parent.FullName, "Artifacts", "UnityEditor");
                 Directory.CreateDirectory(folder);
-                File.WriteAllText(Path.Combine(folder, twilight?"twilight-motor-smoke.txt":m2?"m2-motor-smoke.txt":"motor-smoke.txt"), "Scene="+motor.gameObject.scene.path+"\n"+result);
+                File.WriteAllText(Path.Combine(folder, motor.gameObject.scene.path==BedsideBearBuilder.ScenePath?"bedside-bear-motor-smoke.txt":motor.gameObject.scene.path==BearFitBuilder.ScenePath?"bear-fit-motor-smoke.txt":motor.gameObject.scene.path==FleeceStudyBuilder.ScenePath?"fleece-motor-smoke.txt":(motor.gameObject.scene.path==BeddingRefinementBuilder.ScenePath || motor.gameObject.scene.path==BeddingContactBuilder.ScenePath || motor.gameObject.scene.path==BeddingDrapeBuilder.ScenePath || motor.gameObject.scene.path==BeddingSurfaceBuilder.ScenePath || motor.gameObject.scene.path==BeddingRoundBuilder.ScenePath || motor.gameObject.scene.path==BeddingStableBuilder.ScenePath)?"bedding-motor-smoke.txt":bedside?"bedside-motor-smoke.txt":twilight?"twilight-motor-smoke.txt":m2?"m2-motor-smoke.txt":"motor-smoke.txt"), "Scene="+motor.gameObject.scene.path+"\n"+result);
                 Debug.Log("SORAJIRO MOTOR TESTS: " + result);
             }
             finally

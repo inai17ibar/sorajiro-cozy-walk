@@ -1,0 +1,576 @@
+{
+  "scope": "Validate existing local fleece trial evidence; does not execute or approve rendering.",
+  "collected_at_utc": "2026-10-19T01:56:06.519456+00:00",
+  "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+  "room_scene": "Assets/Sorajiro/Generated/Bedside_v009/L_LookDev.unity",
+  "receipts_sha256": {
+    "Twilight_v010": "452cf536a242137bc4c2dd2bdcaae8cfe04d4818b904cc56340f47c9c78e6673",
+    "Bedside_v009": "5b19ca28b35179ce3d8b778ebdfb62252a04fbf48b66b1b5a553307c4050e110",
+    "Fleece_v005": "68e0ebeeab29e82aad02404b1fa645f2dd1f8a08136ebc7574312f2449e90965"
+  },
+  "observations": {
+    "originalFibers": 149671,
+    "currentFibers": 299342,
+    "vertices": 1796052,
+    "triangles": 1197368,
+    "state": "generated_mesh_fleece_trial_not_approved",
+    "scope": "Existing body, applique and rig untouched. Two narrower laid curved ribbons per original root; no strand simulator. Not an FPS claim."
+  },
+  "studio": {
+    "F02_FullBody_Groomed": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F02_FullBody_Groomed.png",
+      "sha256": "9b7eb51edd3fc2d3e16514dd3b309c20cb87951b452369685c68303e81cda9cd",
+      "metadata": {
+        "utc": "2026-10-19T01:48:36.5377010Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Groomed",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.2800000011920929,
+          "y": 0.2800000011920929,
+          "z": -0.6800000071525574
+        },
+        "rotation": {
+          "x": 5.437457084655762,
+          "y": 337.619873046875,
+          "z": -1.0720409449049839e-07
+        },
+        "fov": 38.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 1796052,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F03_Surface_Fabric": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F03_Surface_Fabric.png",
+      "sha256": "cb3268abf324926bbcb2798f1b002655247bccb6ee45fab6ccf25b8f2f153a22",
+      "metadata": {
+        "utc": "2026-10-19T01:48:42.9334990Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Fabric",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.03500000014901161,
+          "y": 0.3100000023841858,
+          "z": -0.23000000417232513
+        },
+        "rotation": {
+          "x": 2.4842796325683594,
+          "y": 356.26861572265625,
+          "z": -6.6763812256454e-09
+        },
+        "fov": 30.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F03_Surface_Baseline": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F03_Surface_Baseline.png",
+      "sha256": "ac7131e5f8ba618c4f7923f3ed72143dbe27e583301a5f7e1bc0440708f8fe60",
+      "metadata": {
+        "utc": "2026-10-19T01:48:39.5918250Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Baseline",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Lit",
+        "pileShader": "HDRP/Lit",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.03500000014901161,
+          "y": 0.3100000023841858,
+          "z": -0.23000000417232513
+        },
+        "rotation": {
+          "x": 2.4842796325683594,
+          "y": 356.26861572265625,
+          "z": -6.6763812256454e-09
+        },
+        "fov": 30.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F04_Patch_Patch_HairRibbons": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F04_Patch_Patch_HairRibbons.png",
+      "sha256": "7815962acc4fa870b6193375645b1baa37152c09249407204bcee9510f5d9be7",
+      "metadata": {
+        "utc": "2026-10-19T01:48:54.0566720Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Patch_HairRibbons",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "HDRP/Hair",
+        "position": {
+          "x": 0.25,
+          "y": 0.23499999940395355,
+          "z": -0.1599999964237213
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 35.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 1796052,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F01_Portrait_Baseline": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F01_Portrait_Baseline.png",
+      "sha256": "4f05d90f98b847c9f4abfbb8930206e6b17b83df5ff48e023745c41d71ce1fcf",
+      "metadata": {
+        "utc": "2026-10-19T01:48:23.5665740Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Baseline",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Lit",
+        "pileShader": "HDRP/Lit",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.0,
+          "y": 0.3100000023841858,
+          "z": -0.6000000238418579
+        },
+        "rotation": {
+          "x": 2.290609359741211,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 36.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F03_Surface_Groomed": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F03_Surface_Groomed.png",
+      "sha256": "6f441b486637400cc76d8e8064f2981140aaa6c3e938f109135f3d20088eb975",
+      "metadata": {
+        "utc": "2026-10-19T01:48:46.6753040Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Groomed",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.03500000014901161,
+          "y": 0.3100000023841858,
+          "z": -0.23000000417232513
+        },
+        "rotation": {
+          "x": 2.4842796325683594,
+          "y": 356.26861572265625,
+          "z": -6.6763812256454e-09
+        },
+        "fov": 30.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 1796052,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F02_FullBody_Fabric": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F02_FullBody_Fabric.png",
+      "sha256": "dd8f23af3035fbb1bad708d3d5b1d05d867c4cd51c4dcec3e2dcae940fc24eb2",
+      "metadata": {
+        "utc": "2026-10-19T01:48:32.8590940Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Fabric",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.2800000011920929,
+          "y": 0.2800000011920929,
+          "z": -0.6800000071525574
+        },
+        "rotation": {
+          "x": 5.437457084655762,
+          "y": 337.619873046875,
+          "z": -1.0720409449049839e-07
+        },
+        "fov": 38.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F01_Portrait_Groomed": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F01_Portrait_Groomed.png",
+      "sha256": "b5386c8f422ef50f5db2a1e0903b0453158feca5d2d52dca53ff7988da89a9d3",
+      "metadata": {
+        "utc": "2026-10-19T01:48:28.3485930Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Groomed",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.0,
+          "y": 0.3100000023841858,
+          "z": -0.6000000238418579
+        },
+        "rotation": {
+          "x": 2.290609359741211,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 36.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 1796052,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F04_Patch_Patch_FabricMesh": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F04_Patch_Patch_FabricMesh.png",
+      "sha256": "c6dfcbf2719408d40fda238d4617e8923a8565732880906b2d8853d32f95be14",
+      "metadata": {
+        "utc": "2026-10-19T01:48:50.4014940Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Patch_FabricMesh",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.25,
+          "y": 0.23499999940395355,
+          "z": -0.1599999964237213
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 35.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 1796052,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F02_FullBody_Baseline": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F02_FullBody_Baseline.png",
+      "sha256": "9a4328433245b5c1b7fa3c4b7c33214291318674a326fb57e94aa6fc8c6c6982",
+      "metadata": {
+        "utc": "2026-10-19T01:48:30.5769030Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Baseline",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Lit",
+        "pileShader": "HDRP/Lit",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.2800000011920929,
+          "y": 0.2800000011920929,
+          "z": -0.6800000071525574
+        },
+        "rotation": {
+          "x": 5.437457084655762,
+          "y": 337.619873046875,
+          "z": -1.0720409449049839e-07
+        },
+        "fov": 38.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "F01_Portrait_Fabric": {
+      "path": "Artifacts/Visual/fleece/20261019T014821263_studio/F01_Portrait_Fabric.png",
+      "sha256": "06ab8b78ba4557222951781d89c915e37a62d26036c0b840e4b497252975e287",
+      "metadata": {
+        "utc": "2026-10-19T01:48:25.7740190Z",
+        "scene": "Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity",
+        "variant": "Fabric",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "HDRP/Fabric/Fabric CottonWool",
+        "position": {
+          "x": 0.0,
+          "y": 0.3100000023841858,
+          "z": -0.6000000238418579
+        },
+        "rotation": {
+          "x": 2.290609359741211,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 36.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "roomPreview": false,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    }
+  },
+  "room": {
+    "S01_Portrait_Baseline": {
+      "path": "Artifacts/Visual/fleece/20261019T015222133_room/S01_Portrait_Baseline.png",
+      "sha256": "14265e845ca97602cee8f538aabf4b0a9305094f58bf144aa293e8f728a6fd67",
+      "metadata": {
+        "utc": "2026-10-19T01:52:23.3759130Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v009/L_LookDev.unity",
+        "variant": "Baseline",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Lit",
+        "pileShader": "HDRP/Lit",
+        "patchShader": "",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 38.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "roomPreview": true,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "S03_ThreeQuarter_Groomed": {
+      "path": "Artifacts/Visual/fleece/20261019T015222133_room/S03_ThreeQuarter_Groomed.png",
+      "sha256": "d0f5d5255ffbc30ead7616c76fff54ce4264d1ecbf550cf21cf37213a87baac2",
+      "metadata": {
+        "utc": "2026-10-19T01:52:27.2879520Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v009/L_LookDev.unity",
+        "variant": "Groomed",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "",
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.2800000011920929,
+          "z": -1.1200000047683716
+        },
+        "rotation": {
+          "x": 5.691587924957275,
+          "y": 331.9754943847656,
+          "z": -1.0725041477144259e-07
+        },
+        "fov": 38.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 1796052,
+        "roomPreview": true,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "S01_Portrait_Groomed": {
+      "path": "Artifacts/Visual/fleece/20261019T015222133_room/S01_Portrait_Groomed.png",
+      "sha256": "066e6a677bf12ba57e6c8a3bb065fdee9bbc611d079702aee34b360f9a53057c",
+      "metadata": {
+        "utc": "2026-10-19T01:52:24.6288880Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v009/L_LookDev.unity",
+        "variant": "Groomed",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Fabric/Fabric CottonWool",
+        "pileShader": "HDRP/Fabric/Fabric CottonWool",
+        "patchShader": "",
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 38.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 1796052,
+        "roomPreview": true,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    },
+    "S03_ThreeQuarter_Baseline": {
+      "path": "Artifacts/Visual/fleece/20261019T015222133_room/S03_ThreeQuarter_Baseline.png",
+      "sha256": "39d072a74f416031f1f778eb56c6f7711a8b8e78fd9f33006c80a82bb9babe89",
+      "metadata": {
+        "utc": "2026-10-19T01:52:25.8620520Z",
+        "scene": "Assets/Sorajiro/Generated/Bedside_v009/L_LookDev.unity",
+        "variant": "Baseline",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "unity": "6000.6.5f1",
+        "bodyShader": "HDRP/Lit",
+        "pileShader": "HDRP/Lit",
+        "patchShader": "",
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.2800000011920929,
+          "z": -1.1200000047683716
+        },
+        "rotation": {
+          "x": 5.691587924957275,
+          "y": 331.9754943847656,
+          "z": -1.0725041477144259e-07
+        },
+        "fov": 38.0,
+        "width": 1920,
+        "height": 1080,
+        "pileVertices": 928672,
+        "roomPreview": true,
+        "dynamicResolution": false,
+        "scope": "Actual Editor HDRP StandardRequest/TAA; no blur or generated-image validation. Studio EV7, room retains original EV6. Different lighting contexts are not an isolated material comparison."
+      }
+    }
+  },
+  "measured_luma_differences_8bit": {
+    "studio:F01_Portrait_Baseline->F01_Portrait_Fabric": 2.67113,
+    "studio:F03_Surface_Baseline->F03_Surface_Fabric": 8.13316,
+    "studio:F01_Portrait_Fabric->F01_Portrait_Groomed": 0.691087,
+    "studio:F03_Surface_Fabric->F03_Surface_Groomed": 1.07175,
+    "studio:F04_Patch_Patch_FabricMesh->F04_Patch_Patch_HairRibbons": 2.69628,
+    "room:S01_Portrait_Baseline->S01_Portrait_Groomed": 3.65044,
+    "room:S03_ThreeQuarter_Baseline->S03_ThreeQuarter_Groomed": 2.94567
+  },
+  "comparison_scope": "Only within each lighting context. Signal differences prove switch effect, not quality or FPS. Hair patch is a mesh-shading experiment, not simulated strands.",
+  "runtime_tests": {
+    "fleece-checks.txt": "PASS: original model preserved; groomed pile mesh, shared bone binding and HDRP fabric materials loaded. Real visual/motion/performance approval remains separate.\nScene=Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity\n",
+    "fleece-motor-smoke.txt": "Scene=Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity\nPASS: actual CharacterController with production Step; grounding, walk/run/diagonal, 30/60 movement steps, jump/landing, air-jump refusal, boundary, return.\nWalk distance=0.09333m; jump peak=0.12598m.\nSynchronous physics smoke, not a keyboard/device, frame-loop, long stability or performance test.\n",
+    "fleece-animation-runtime.txt": "PASS: production motor + animation driver + actual Generic Animator.Update; observed Locomotion, Jump, Fall, Land and grounded recovery; root motion off.\nSynchronous integration test, not keyboard, frame pacing or motion-quality approval.\n",
+    "fleece-variant-runtime.txt": "PASS: all three production Apply variants; exact mesh/material references; finite groom positions; normalized skin weights and valid indices.\nScene=Assets/Sorajiro/Generated/Fleece_v005/L_LookDev.unity\n"
+  },
+  "motion": {
+    "path": "Artifacts/Visual/motion/20261019T015302169",
+    "frames": 420,
+    "last_timestamp_s": 29.97115,
+    "sha256": "dfcf82e332261331957285e1836990c36c2491dc9317f634387d356c725167ce",
+    "fleece_variant": 2,
+    "pile_vertices_every_sample": 1796052
+  },
+  "source_checks": {
+    "observed_at_utc": "2026-10-19T01:47:14.731412+00:00",
+    "checks": [
+      {
+        "name": "Sorajiro.Runtime",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+      },
+      {
+        "name": "Sorajiro.Editor",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+      },
+      {
+        "name": "MotionPolicyTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+      },
+      {
+        "name": "MotionPolicy_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+      },
+      {
+        "name": "PlushGaitTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGaitTest.log"
+      },
+      {
+        "name": "PlushGait_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+      }
+    ],
+    "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+    "unity_import": "not_run",
+    "player_build": "not_run",
+    "render": "not_run",
+    "performance": "not_run"
+  },
+  "not_verified": [
+    "reference quality / owner approval",
+    "Player build",
+    "FPS/GPU time/memory pressure",
+    "Windows",
+    "real keyboard acceptance",
+    "LOD/quality workload controls",
+    "strand simulation"
+  ]
+}
