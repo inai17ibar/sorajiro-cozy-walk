@@ -1,0 +1,1397 @@
+{
+  "scope": "Validate existing lighting evidence; no visual approval, performance or hardware-audio claim.",
+  "chosen_variant": 1,
+  "asset_receipts_sha256": {
+    "FleeceLighting_v002": "96ca12a25ec159d6692eed355721f63f1f1cd0eeb20f81b0020bf5974320bf24",
+    "StarPlay_v003": "40b2b2fe09d5ac48f29462c7f6e94485f0e83e932e345fd9bf73c134c275f683",
+    "BedsideBear_v002": "f35a0b9488314531594ded18023e78966db981fb5308543829b5f6271d3374b0",
+    "BearFit_v001": "a3388f10f1a5f658066d41ff1e73e300f3691d646f906b1fae33f86f5bd73429",
+    "Fleece_v005": "68e0ebeeab29e82aad02404b1fa645f2dd1f8a08136ebc7574312f2449e90965",
+    "Bedside_v009": "5b19ca28b35179ce3d8b778ebdfb62252a04fbf48b66b1b5a553307c4050e110"
+  },
+  "images": {
+    "S01_Portrait_Before": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S01_Portrait_Before.png",
+      "sha256": "a322538c0ad2c538fd0b539aed11222663517c08de4f39a49afcfd3dae6f5041",
+      "metadata": {
+        "utc": "2026-10-24T01:44:37.6211010Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 0,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 38.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 370.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 65.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 55.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 240.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": false,
+            "power": 600.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "S01_Portrait_Side600": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S01_Portrait_Side600.png",
+      "sha256": "aea2b90c0432297288dc8186bb350564ce1ea721face80c35ebcc8ea4e92951e",
+      "metadata": {
+        "utc": "2026-10-24T01:44:42.8983280Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 1,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 38.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 70.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 18.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 35.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 45.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 600.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "S01_Portrait_Side850": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S01_Portrait_Side850.png",
+      "sha256": "d56402c7f24be3e6297cdaf763da3f0428cbb2e98c7821cd980bee4c724538d8",
+      "metadata": {
+        "utc": "2026-10-24T01:44:48.1816520Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 2,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.30000001192092896,
+          "z": -1.0800000429153442
+        },
+        "rotation": {
+          "x": 1.4814585447311401,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 38.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 70.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 18.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 35.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 60.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 850.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "S03_ThreeQuarter_Before": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S03_ThreeQuarter_Before.png",
+      "sha256": "ce1d6e058d9f85500d8a0ea265ff2b2816313dfe34e1764ca7cdd439daa6203d",
+      "metadata": {
+        "utc": "2026-10-24T01:44:39.1094870Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 0,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.2800000011920929,
+          "z": -1.1200000047683716
+        },
+        "rotation": {
+          "x": 5.691587924957275,
+          "y": 331.9754943847656,
+          "z": -1.0725041477144259e-07
+        },
+        "fov": 38.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 370.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 65.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 55.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 240.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": false,
+            "power": 600.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "S03_ThreeQuarter_Side600": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S03_ThreeQuarter_Side600.png",
+      "sha256": "5106fe1bd05405e97f76bbdca118ced004bf02e06a737ce3199d28be0a4872d3",
+      "metadata": {
+        "utc": "2026-10-24T01:44:44.1902250Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 1,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.2800000011920929,
+          "z": -1.1200000047683716
+        },
+        "rotation": {
+          "x": 5.691587924957275,
+          "y": 331.9754943847656,
+          "z": -1.0725041477144259e-07
+        },
+        "fov": 38.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 70.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 18.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 35.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 45.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 600.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "S03_ThreeQuarter_Side850": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S03_ThreeQuarter_Side850.png",
+      "sha256": "dd3db65a1760a9b9acaf1e468542819231ad1fa6d859c95a46803414e45ba225",
+      "metadata": {
+        "utc": "2026-10-24T01:44:49.5836070Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 2,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": 0.20999999344348907,
+          "y": 0.2800000011920929,
+          "z": -1.1200000047683716
+        },
+        "rotation": {
+          "x": 5.691587924957275,
+          "y": 331.9754943847656,
+          "z": -1.0725041477144259e-07
+        },
+        "fov": 38.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 70.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 18.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 35.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 60.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 850.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "S02_Gameplay_Before": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S02_Gameplay_Before.png",
+      "sha256": "8c69333c052f2afd343c11a0467baeecbda6c282aab34a84d874c5d1943a1820",
+      "metadata": {
+        "utc": "2026-10-24T01:44:40.3721720Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 0,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": 0.6800000071525574,
+          "y": 0.2800000011920929,
+          "z": -1.75
+        },
+        "rotation": {
+          "x": 356.27294921875,
+          "y": 342.8240966796875,
+          "z": -5.3473947048132686e-08
+        },
+        "fov": 48.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 370.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 65.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 55.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 240.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": false,
+            "power": 600.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "S02_Gameplay_Side600": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S02_Gameplay_Side600.png",
+      "sha256": "74a9f67cc2b8d94e88f780d9780baf1cabf4601a26693132a179a4349d5e7541",
+      "metadata": {
+        "utc": "2026-10-24T01:44:45.4020170Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 1,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": 0.6800000071525574,
+          "y": 0.2800000011920929,
+          "z": -1.75
+        },
+        "rotation": {
+          "x": 356.27294921875,
+          "y": 342.8240966796875,
+          "z": -5.3473947048132686e-08
+        },
+        "fov": 48.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 70.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 18.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 35.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 45.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 600.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "S02_Gameplay_Side850": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/S02_Gameplay_Side850.png",
+      "sha256": "a3cc41a050a086a3378eeac8e46688cf0d78342a56b6a708af25f90c69c49d1f",
+      "metadata": {
+        "utc": "2026-10-24T01:44:50.7680510Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 2,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": 0.6800000071525574,
+          "y": 0.2800000011920929,
+          "z": -1.75
+        },
+        "rotation": {
+          "x": 356.27294921875,
+          "y": 342.8240966796875,
+          "z": -5.3473947048132686e-08
+        },
+        "fov": 48.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 70.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 18.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 35.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 60.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 850.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "Fleece_Close_Before": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/Fleece_Close_Before.png",
+      "sha256": "2f7dee2be2a0cf244c109aaf099427054961979a4aca3f2b10250be175d6adc3",
+      "metadata": {
+        "utc": "2026-10-24T01:44:41.6016420Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 0,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.33000001311302185,
+          "z": -0.9900000095367432
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 32.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 370.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 65.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 55.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 240.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": false,
+            "power": 600.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "Fleece_Close_Side600": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/Fleece_Close_Side600.png",
+      "sha256": "fa82d7ac0cfa4c55167f1e7059724e0983194d895644c67b59ba8c719860614d",
+      "metadata": {
+        "utc": "2026-10-24T01:44:46.8051350Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 1,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.33000001311302185,
+          "z": -0.9900000095367432
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 32.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 70.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 18.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 35.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 45.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 600.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    },
+    "Fleece_Close_Side850": {
+      "path": "Artifacts/Visual/fleece-light/20261024T014436200/Fleece_Close_Side850.png",
+      "sha256": "8c0826842320956636ae0cab1192bf9582ab5bfc98235d24071053f24dc349c3",
+      "metadata": {
+        "utc": "2026-10-24T01:44:52.1311200Z",
+        "overlay": "Assets/Sorajiro/Generated/FleeceLighting_v002/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "variant": 2,
+        "width": 1920,
+        "height": 1080,
+        "position": {
+          "x": -0.11999999731779099,
+          "y": 0.33000001311302185,
+          "z": -0.9900000095367432
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "fov": 32.0,
+        "exposure": 7.0,
+        "lights": [
+          {
+            "name": "Window_Side_Key",
+            "unit": "Lux",
+            "enabled": true,
+            "power": 70.0,
+            "position": {
+              "x": -1.1200000047683716,
+              "y": 2.0299999713897705,
+              "z": -1.5
+            },
+            "forward": {
+              "x": 0.78663569688797,
+              "y": -0.48408350348472595,
+              "z": 0.38323289155960083
+            }
+          },
+          {
+            "name": "Window_Soft_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 18.0,
+            "position": {
+              "x": 0.25999999046325684,
+              "y": 0.44999998807907104,
+              "z": -0.9199999570846558
+            },
+            "forward": {
+              "x": -0.6563442349433899,
+              "y": -0.20726656913757324,
+              "z": 0.7254329323768616
+            }
+          },
+          {
+            "name": "Back_Soft_Rim",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 35.0,
+            "position": {
+              "x": 0.22999998927116394,
+              "y": 0.5499999523162842,
+              "z": -0.3799999952316284
+            },
+            "forward": {
+              "x": -0.8130744099617004,
+              "y": -0.5110753774642944,
+              "z": -0.278768390417099
+            }
+          },
+          {
+            "name": "Room_Adaptation_Neutral_Fill",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 60.0,
+            "position": {
+              "x": -0.11999999731779099,
+              "y": 0.4300000071525574,
+              "z": -0.9800000190734863
+            },
+            "forward": {
+              "x": 0.0,
+              "y": -0.33384716510772705,
+              "z": 0.9426271915435791
+            }
+          },
+          {
+            "name": "Soft_Grazing_Fleece_Key",
+            "unit": "Lumen",
+            "enabled": true,
+            "power": 850.0,
+            "position": {
+              "x": -0.5399999618530273,
+              "y": 0.5099999904632568,
+              "z": -0.8199999928474426
+            },
+            "forward": {
+              "x": 0.7292501926422119,
+              "y": -0.3993513584136963,
+              "z": 0.5556191802024841
+            }
+          }
+        ]
+      }
+    }
+  },
+  "image_difference_8bit_luma_not_quality_score": 11.4702,
+  "motion": {
+    "path": "Artifacts/Visual/motion/20261024T014622369",
+    "frames": 428,
+    "last_timestamp_s": 29.99722,
+    "sha256": "b728df4cdcbaf9ebf5868fd2eb27e1c3888fd58a988a2070c5bae03ddb1a1141"
+  },
+  "source_checks": {
+    "observed_at_utc": "2026-10-24T01:43:23.113080+00:00",
+    "checks": [
+      {
+        "name": "Sorajiro.Runtime",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+      },
+      {
+        "name": "Sorajiro.Editor",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+      },
+      {
+        "name": "MotionPolicyTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+      },
+      {
+        "name": "MotionPolicy_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+      },
+      {
+        "name": "PlushGaitTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGaitTest.log"
+      },
+      {
+        "name": "PlushGait_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+      },
+      {
+        "name": "FootstepBeatTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/FootstepBeatTest.log"
+      },
+      {
+        "name": "FootstepBeatTest_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/FootstepBeatTest_execution.log"
+      },
+      {
+        "name": "PlushSfxTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushSfxTest.log"
+      },
+      {
+        "name": "PlushSfxTest_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushSfxTest_execution.log"
+      }
+    ],
+    "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+    "unity_import": "not_run",
+    "player_build": "not_run",
+    "render": "not_run",
+    "performance": "not_run"
+  },
+  "not_verified": [
+    "owner visual approval",
+    "Player build",
+    "FPS/GPU time/memory pressure",
+    "Windows",
+    "full temporal stability acceptance",
+    "gameplay regression under new lights beyond scripted motion"
+  ]
+}

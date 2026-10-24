@@ -11,11 +11,32 @@ import time
 from pathlib import Path
 
 COMMANDS = {
+    "comfort-runtime": 'return Sorajiro.Editor.ComfortPlayVerification.Begin();',
+    "play-feel-status": 'var p=UnityEngine.Object.FindAnyObjectByType<Sorajiro.ComfortPlay>();return new {ready=p && p.Ready,pitch=p&&p.Ready?p.CameraRig.pitch:0,yaw=p&&p.Ready?p.CameraRig.yaw:0,jumps=p?p.JumpSoundCount:0,camera=p&&p.Ready?p.CameraRig.transform.position:UnityEngine.Vector3.zero};',
+    "comfort-create": 'return Sorajiro.Editor.ComfortPlayBuilder.Schedule("create");',
+    "comfort-open": 'return Sorajiro.Editor.ComfortPlayBuilder.Schedule("open");',
+    "comfort-check": 'return Sorajiro.Editor.ComfortPlayBuilder.Schedule("check");',
+    "comfort-play": 'return Sorajiro.Editor.ComfortPlayBuilder.Schedule("play");',
+
+    "light-create": 'return Sorajiro.Editor.FleeceLightingBuilder.Schedule("create");',
+    "light-open": 'return Sorajiro.Editor.FleeceLightingBuilder.Schedule("open");',
+    "light-check": 'return Sorajiro.Editor.FleeceLightingBuilder.Schedule("check");',
+    "light-play": 'return Sorajiro.Editor.FleeceLightingBuilder.Schedule("play");',
+    "light-capture": 'return Sorajiro.Editor.FleeceLightingCapture.Begin();',
+
+    "star-runtime": 'return Sorajiro.Editor.StarPlayVerification.Begin();',
+    "gameplay-status": 'var s=UnityEngine.Object.FindAnyObjectByType<Sorajiro.StarPlaySession>();return new { present=s!=null, ready=s && s.Ready, collected=s?s.CollectedCount:-1,total=s?s.TotalCount:-1,footsteps=s?s.FootstepCount:-1,chimes=s?s.PickupSoundCount:-1,speed=s?s.Motor.PlanarSpeed:0,grounded=s && s.Motor.Grounded,focused=s && s.Motor.Focused,paused=s && s.Motor.Paused,anim=s?s.Motor.GetComponent<Sorajiro.BearAnimationDriver>().animator.GetCurrentAnimatorStateInfo(0).normalizedTime:0 };',
+    "star-create": 'return Sorajiro.Editor.StarPlayBuilder.Schedule("create");',
+    "star-open": 'return Sorajiro.Editor.StarPlayBuilder.Schedule("open");',
+    "star-check": 'return Sorajiro.Editor.StarPlayBuilder.Schedule("check");',
+    "star-play": 'return Sorajiro.Editor.StarPlayBuilder.Schedule("play");',
+
+    "star-info": 'return string.Join("; ", System.Linq.Enumerable.Select(System.Linq.Enumerable.Where(UnityEngine.Object.FindObjectsByType<UnityEngine.Renderer>(),r=>r.name.ToLowerInvariant().Contains("star")),r=>r.name+" center="+r.bounds.center+" size="+r.bounds.size));',
     "selected-light-info": 'var root=UnityEngine.GameObject.Find(Sorajiro.Editor.BedsideBearBuilder.LightsName);return string.Join("; ",System.Linq.Enumerable.Select(root.GetComponentsInChildren<UnityEngine.Light>(true),l=>l.name+" active="+l.gameObject.activeInHierarchy+" enabled="+l.enabled+" power="+l.intensity+" unit="+l.lightUnit+" pos="+l.transform.position+" forward="+l.transform.forward+" layers="+(uint)l.GetComponent<UnityEngine.Rendering.HighDefinition.HDAdditionalLightData>().lightlayersMask+" shadows="+l.renderingLayerMask));',
     "lighting-info": 'var a=(UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset)UnityEngine.Rendering.GraphicsSettings.currentRenderPipeline; return new { asset=UnityEditor.AssetDatabase.GetAssetPath(a), lightLayers=a.currentPlatformRenderPipelineSettings.supportLightLayers, directionalShadows=a.currentPlatformRenderPipelineSettings.hdShadowInitParams.directionalShadowFilteringQuality.ToString() };',
     "status": """var scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
 var asset = UnityEngine.Rendering.GraphicsSettings.currentRenderPipeline as UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset;
-return new { scene = scene.path, playing = UnityEditor.EditorApplication.isPlaying,
+return new { scene = scene.path, playing = UnityEditor.EditorApplication.isPlaying, editorPaused = UnityEditor.EditorApplication.isPaused,
 dirty = scene.isDirty, compiling = UnityEditor.EditorApplication.isCompiling,
 gpu = UnityEngine.SystemInfo.graphicsDeviceName, api = UnityEngine.SystemInfo.graphicsDeviceType.ToString(),
 ssgiSupported = asset != null && asset.currentPlatformRenderPipelineSettings.supportSSGI };""",
@@ -125,7 +146,7 @@ def main():
     if result.stderr:
         print(result.stderr, end="")
     envelope = json.loads(result.stdout)
-    if result.returncode and (args.stage in ("corner-bake","bedding-bake","contact-bake","drape-bake","surface-bake","round-bake","stable-bake") or args.stage.startswith(("fleece-", "fit-", "bedbear-"))) and "Main thread operation timed out" in result.stdout:
+    if result.returncode and (args.stage in ("corner-bake","bedding-bake","contact-bake","drape-bake","surface-bake","round-bake","stable-bake") or args.stage.startswith(("fleece-", "fit-", "bedbear-", "star-", "light-", "comfort-"))) and "Main thread operation timed out" in result.stdout:
         # Pipeline's RPC can time out while native light extraction continues. Do not start a second bake.
         jobs=Path(__file__).resolve().parents[1]/"Artifacts/UnityEditor/PipelineJobs"
         observation_deadline=time.monotonic()+30
@@ -143,7 +164,7 @@ def main():
         raise SystemExit(result.returncode)
     if envelope.get("success") is False or envelope.get("data", {}).get("result", {}).get("success") is False:
         raise SystemExit("Unity reported a command failure")
-    if (args.stage.startswith(("bedding-","contact-","drape-","surface-","round-","stable-","fleece-","fit-","bedbear-")) and args.stage!="stable-save-apv") or args.stage in ("create", "edit-tests", "runtime-tests", "corner-create", "corner-check", "corner-bake", "corner-runtime", "corner-open", "corner-capture", "corner-play"):
+    if (args.stage.startswith(("bedding-","contact-","drape-","surface-","round-","stable-","fleece-","fit-","bedbear-","star-","light-","comfort-")) and args.stage!="stable-save-apv") or args.stage in ("create", "edit-tests", "runtime-tests", "corner-create", "corner-check", "corner-bake", "corner-runtime", "corner-open", "corner-capture", "corner-play"):
         job = Path(envelope["data"]["result"]["result"]).resolve()
         job.relative_to(Path(__file__).resolve().parents[1]/"Artifacts/UnityEditor/PipelineJobs")
         deadline = time.monotonic()+(960 if args.stage in ("corner-bake","bedding-bake","contact-bake","drape-bake","surface-bake","round-bake","stable-bake") else 300)

@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-23T22:51:39.948875+00:00",
+  "observed_at_utc": "2026-10-24T04:57:19.223725+00:00",
   "checks": [
     {
       "name": "Sorajiro.Runtime",
@@ -30,6 +30,46 @@
       "name": "PlushGait_execution",
       "exit_code": 0,
       "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+    },
+    {
+      "name": "FootstepBeatTest",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/FootstepBeatTest.log"
+    },
+    {
+      "name": "FootstepBeatTest_execution",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/FootstepBeatTest_execution.log"
+    },
+    {
+      "name": "PlushSfxTest",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/PlushSfxTest.log"
+    },
+    {
+      "name": "PlushSfxTest_execution",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/PlushSfxTest_execution.log"
+    },
+    {
+      "name": "CameraComfortTest",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/CameraComfortTest.log"
+    },
+    {
+      "name": "CameraComfortTest_execution",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/CameraComfortTest_execution.log"
+    },
+    {
+      "name": "CutePlushSfxTest",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/CutePlushSfxTest.log"
+    },
+    {
+      "name": "CutePlushSfxTest_execution",
+      "exit_code": 0,
+      "log": "Artifacts/UnitySourceChecks/CutePlushSfxTest_execution.log"
     }
   ],
   "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",

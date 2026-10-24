@@ -59,6 +59,11 @@ def main():
         (output / 'PlushGaitTest.runtimeconfig.json').write_text(json.dumps({
             'runtimeOptions': {'tfm': 'net8.0', 'framework': {'name': 'Microsoft.NETCore.App', 'version': '8.0.0'}}}))
         run('PlushGait_execution', [str(dotnet), str(output / 'PlushGaitTest.dll')])
+    for name, source in (('FootstepBeatTest','Runtime/FootstepBeat.cs'),('PlushSfxTest','Editor/PlushSfx.cs'),('CameraComfortTest','Runtime/CameraComfortPolicy.cs'),('CutePlushSfxTest','Editor/CutePlushSfx.cs')):
+        if compile(name, [PACKAGE / source, ROOT / ('Tests/Unity/'+name+'.cs')], net8, True):
+            (output / (name+'.runtimeconfig.json')).write_text(json.dumps({
+                'runtimeOptions': {'tfm': 'net8.0', 'framework': {'name': 'Microsoft.NETCore.App', 'version': '8.0.0'}}}))
+            run(name+'_execution', [str(dotnet), str(output / (name+'.dll'))])
     report = {'observed_at_utc': datetime.now(timezone.utc).isoformat(), 'checks': checks,
               'scope': 'Roslyn assemblies against installed Unity references + shared pure logic execution',
               'unity_import': 'not_run', 'player_build': 'not_run', 'render': 'not_run', 'performance': 'not_run'}

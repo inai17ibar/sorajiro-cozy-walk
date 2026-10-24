@@ -1,0 +1,212 @@
+{
+  "restart_state": {
+    "present": true,
+    "ready": true,
+    "collected": 0,
+    "total": 3,
+    "footsteps": 0,
+    "chimes": 0,
+    "speed": 0,
+    "grounded": true,
+    "focused": false,
+    "paused": false,
+    "anim": 733.7761
+  },
+  "scope": "Collect real Star Play evidence; no audio hardware, visual approval or FPS claim.",
+  "overlay": "Assets/Sorajiro/Generated/StarPlay_v003/L_LookDev.unity",
+  "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+  "asset_receipts_sha256": {
+    "StarPlay_v003": "40b2b2fe09d5ac48f29462c7f6e94485f0e83e932e345fd9bf73c134c275f683",
+    "BedsideBear_v002": "f35a0b9488314531594ded18023e78966db981fb5308543829b5f6271d3374b0",
+    "BearFit_v001": "a3388f10f1a5f658066d41ff1e73e300f3691d646f906b1fae33f86f5bd73429",
+    "Bedside_v009": "5b19ca28b35179ce3d8b778ebdfb62252a04fbf48b66b1b5a553307c4050e110",
+    "Fleece_v005": "68e0ebeeab29e82aad02404b1fa645f2dd1f8a08136ebc7574312f2449e90965"
+  },
+  "play_checks": {
+    "state": "completed",
+    "error": "",
+    "folder": "/Users/soichiro.inatani/src/sorajiro-cozy-walk/Artifacts/Visual/star-play/20261024T005633251",
+    "gpu": "Apple M3 Max",
+    "api": "Metal",
+    "assertions": 28,
+    "collected": 3,
+    "footsteps": 12,
+    "walkSteps": 4,
+    "landings": 2,
+    "chimes": 3,
+    "lightmaps": 3,
+    "footPeak": 0.05328461900353432,
+    "chimePeak": 0.06880649924278259
+  },
+  "frames": {
+    "Before": {
+      "path": "Artifacts/Visual/star-play/20261024T005633251/Before.png",
+      "sha256": "5dc063d86dedeed6c15210a40bfb7433c7950bae42753615ba9517600b76ac21",
+      "metadata": {
+        "utc": "2026-10-24T00:56:34.2528070Z",
+        "overlay": "Assets/Sorajiro/Generated/StarPlay_v003/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "position": {
+          "x": -0.3099999725818634,
+          "y": 0.5277559757232666,
+          "z": -0.9500000476837158
+        },
+        "rotation": {
+          "x": 17.627300262451172,
+          "y": 37.405357360839844,
+          "z": 0.0
+        },
+        "fov": 55.0,
+        "collected": 0,
+        "sparks": 0,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "Contact_Burst": {
+      "path": "Artifacts/Visual/star-play/20261024T005633251/Contact_Burst.png",
+      "sha256": "2f80a601e6dc7e50ceb6b2fa751241c99aebea67fc4cc4896d50e05261715de8",
+      "metadata": {
+        "utc": "2026-10-24T00:56:35.1251290Z",
+        "overlay": "Assets/Sorajiro/Generated/StarPlay_v003/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "position": {
+          "x": -0.3099999725818634,
+          "y": 0.5277559757232666,
+          "z": -0.9500000476837158
+        },
+        "rotation": {
+          "x": 17.627300262451172,
+          "y": 37.405357360839844,
+          "z": 0.0
+        },
+        "fov": 55.0,
+        "collected": 1,
+        "sparks": 1,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "After": {
+      "path": "Artifacts/Visual/star-play/20261024T005633251/After.png",
+      "sha256": "0c6d360d5e3a55fe51e74124b5106c1692b05344edb9ea92e9e656c9a0148e8f",
+      "metadata": {
+        "utc": "2026-10-24T00:56:42.9513970Z",
+        "overlay": "Assets/Sorajiro/Generated/StarPlay_v003/L_LookDev.unity",
+        "room": "Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity",
+        "gpu": "Apple M3 Max",
+        "api": "Metal",
+        "model": "Preferred_BearFit_v001_3",
+        "position": {
+          "x": -0.3099999725818634,
+          "y": 0.5277559757232666,
+          "z": -0.9500000476837158
+        },
+        "rotation": {
+          "x": 17.627300262451172,
+          "y": 37.405357360839844,
+          "z": 0.0
+        },
+        "fov": 55.0,
+        "collected": 3,
+        "sparks": 0,
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "source_output_DSP": {
+    "Actual_Foot_DSP.wav": {
+      "sha256": "2b8c8e94eb32e40da7879cc9ce984cbadebb547d8752a42e87195317b9838c5a",
+      "channels": 2,
+      "rate": 48000,
+      "seconds": 8.0,
+      "peak": 0.053253173828125,
+      "rms": 0.003521725386465843
+    },
+    "Actual_Chime_DSP.wav": {
+      "sha256": "ed1454eb242ec6af9b693d56ee12d137e6efe266b9b1a725cf5ae8138f22eeaa",
+      "channels": 2,
+      "rate": 48000,
+      "seconds": 8.0,
+      "peak": 0.06878662109375,
+      "rms": 0.006145008569503218
+    }
+  },
+  "source_checks": {
+    "observed_at_utc": "2026-10-24T00:54:56.574568+00:00",
+    "checks": [
+      {
+        "name": "Sorajiro.Runtime",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Runtime.log"
+      },
+      {
+        "name": "Sorajiro.Editor",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/Sorajiro.Editor.log"
+      },
+      {
+        "name": "MotionPolicyTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicyTest.log"
+      },
+      {
+        "name": "MotionPolicy_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/MotionPolicy_execution.log"
+      },
+      {
+        "name": "PlushGaitTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGaitTest.log"
+      },
+      {
+        "name": "PlushGait_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushGait_execution.log"
+      },
+      {
+        "name": "FootstepBeatTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/FootstepBeatTest.log"
+      },
+      {
+        "name": "FootstepBeatTest_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/FootstepBeatTest_execution.log"
+      },
+      {
+        "name": "PlushSfxTest",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushSfxTest.log"
+      },
+      {
+        "name": "PlushSfxTest_execution",
+        "exit_code": 0,
+        "log": "Artifacts/UnitySourceChecks/PlushSfxTest_execution.log"
+      }
+    ],
+    "scope": "Roslyn assemblies against installed Unity references + shared pure logic execution",
+    "unity_import": "not_run",
+    "player_build": "not_run",
+    "render": "not_run",
+    "performance": "not_run"
+  },
+  "not_verified": [
+    "hardware listening and speaker/headphone balance",
+    "owner approval",
+    "Player build",
+    "Windows",
+    "FPS and memory pressure",
+    "keyboard/focus acceptance",
+    "collection save across app restarts",
+    "eight-star exploration layout"
+  ]
+}

@@ -1,5 +1,11 @@
 # マイルストーンと小さなタスク
 
+**2026-10-24 更新：足音・ジャンプ音と俯瞰カメラを改良しました。** 最新の入口は `Sorajiro → Play Comfort → 2. Open overhead camera and cute sounds`。26度の俯瞰、Q/Eの45度旋回、Cで背面へ復帰、画面ボタンを追加し、追従と移動方向の参照切れも修正。実Play28項目・Q/E/C実キー・Metal画像4枚・30秒の動作を確認しました。聴感・操作感の所有者承認、Player build、性能は未完了です。[実画像・音・操作・再現手順](UNITY_COMFORT_PLAY_REPORT.md)。
+
+**2026-10-24 更新：くまの正面光を抑え、斜め光で毛並みを読む版を追加しました。** `Sorajiro → Fleece Lighting → 2. Open soft-lit star room` から開き、▶で適用します。元のくま・部屋・星と音は保持。実Metal固定12枚と30秒Playを記録し、画質承認・Player build・性能は未完了です。[比較画像・変更・手順](UNITY_FLEECE_LIGHTING_REPORT.md)。
+
+**2026-10-24 更新：星への接触・取得エフェクト・効果音を追加しました。** 床の星3つを集めると光の粒が広がって消え、取得数と完了を表示します。足音・着地音、Mでミュート、音量保存も追加。Unityの `Sorajiro → Star Play → 2. Open playable bedside stars` で部屋と追加シーンを一緒に開けます。元のくまと部屋は保持。実トリガー・音声DSP・Metal画像を検査し、Player build・性能・聴感承認は未完了です。[実画像・音・再現手順](UNITY_STAR_PLAY_REPORT.md)。
+
 **2026-10-24 更新：選択されたBearFit v001・比較3をベッドサイドへ配置しました。** 新シーンは `Assets/Sorajiro/Generated/BedsideBear_v002/L_LookDev.unity`。素材色を維持し、部屋用の補光・専用GPUベイク/APVを追加。実Metal固定6枚と30秒Playを記録しました。Unityの `Sorajiro → Bedside Bear → 2. Open selected bear in bedside room` で開けます。足元・股下・室内画質承認・Player build・性能は残課題です。[実画像・検証・Mac手順](UNITY_BEDSIDE_BEAR_REPORT.md)。
 
 **2026-10-19 更新：体型と正面の毛並みの比較試作はBearFit v002。** 前回2の素材を維持し、腹部の丸み・脚の間隔・面光源を調整。実Metal固定12枚、6クリップの変形と足裏検査、30秒ルートのPlayを記録しました。Unityの `Sorajiro → Bear Fit → 2. Open shape and lighting study` から開けます。股下の伸び・接地影・画質承認・Player build・性能は残課題です。[実画像・検証とMac手順](UNITY_BEAR_FIT_REPORT.md)。
